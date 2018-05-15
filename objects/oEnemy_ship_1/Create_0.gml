@@ -44,6 +44,10 @@ bullet_timer = 0
 knockback_timer = 1
 flash = 0
 
+//Enemy Collision Timer
+collision_timer = 0
+collision_spd = 0
+
 //Timer/Death
 death_timer = 0 //(sprite_get_number(sExplosion) * 5)
 flame_frame = 0
@@ -67,6 +71,7 @@ else
 	mode = "wander"
 }
 
+//Move Counters
 counter = 0
 
 move_wander = 0

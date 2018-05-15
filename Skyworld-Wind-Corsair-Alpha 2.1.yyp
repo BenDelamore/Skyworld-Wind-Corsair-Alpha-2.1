@@ -895,6 +895,14 @@
             }
         },
         {
+            "Key": "9e23f5af-841e-4a6d-a387-2deaa292fcc5",
+            "Value": {
+                "id": "b847a05d-094a-40a8-805d-18d17e44472a",
+                "resourcePath": "objects\\o_move_away\\o_move_away.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a0f5ebd5-6bc5-451f-8244-560531e4341e",
             "Value": {
                 "id": "fa726423-1f8a-4b24-a582-c609bc565c05",
