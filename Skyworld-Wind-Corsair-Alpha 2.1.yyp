@@ -215,10 +215,26 @@
             }
         },
         {
+            "Key": "261e6e5c-788a-4257-bff3-838a07069718",
+            "Value": {
+                "id": "149a9448-57ab-4919-a875-7d7fd4de1eca",
+                "resourcePath": "sprites\\sIsland_Modular_Base_1\\sIsland_Modular_Base_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "28a38832-ab22-473e-b916-ded2d2a744c9",
             "Value": {
                 "id": "600599c7-baa0-4d9b-b03b-9063bcc23e7c",
                 "resourcePath": "objects\\oBallistae1\\oBallistae1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "28ec5acf-8e5c-4ee0-98e0-afa9ce9dbd99",
+            "Value": {
+                "id": "f53d8320-5188-428e-9d8b-39da8c83215b",
+                "resourcePath": "objects\\oIsland_Modular_Base_3\\oIsland_Modular_Base_3.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -399,11 +415,27 @@
             }
         },
         {
+            "Key": "42be81d6-4e70-4714-a810-5b1f5fc97012",
+            "Value": {
+                "id": "1007356f-7e09-49f5-bd1f-c6abc5aa34e0",
+                "resourcePath": "sprites\\sPlayer_1\\sPlayer_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42d06bd3-6f43-4415-b9d3-5361c4f792bc",
             "Value": {
                 "id": "acca16e0-4029-4faf-8019-6a315a90161c",
                 "resourcePath": "sounds\\mus_1_Pollution\\mus_1_Pollution.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "42eac8c2-a481-4c5c-a69d-e75c5db5fe00",
+            "Value": {
+                "id": "5b707527-aed3-470a-b76a-1b4371ce27b9",
+                "resourcePath": "objects\\oIsland_Modular_Top_1\\oIsland_Modular_Top_1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -799,6 +831,14 @@
             }
         },
         {
+            "Key": "8ca40d53-8dee-4cc9-9033-23598f4a438b",
+            "Value": {
+                "id": "6e9ae010-0fb5-479f-b209-2a9e1431e868",
+                "resourcePath": "sprites\\sIsland_Modular_Top_1\\sIsland_Modular_Top_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8d974f80-3401-4689-9e51-acae873c169d",
             "Value": {
                 "id": "f718d7ed-61c6-42dc-bb38-b200e74fbcd2",
@@ -983,6 +1023,14 @@
             }
         },
         {
+            "Key": "af7a6de5-4709-498a-b396-afa1869ebc5f",
+            "Value": {
+                "id": "e187e935-9f61-43fb-980c-41f88967fb4b",
+                "resourcePath": "sprites\\sIsland_Modular_Base_3\\sIsland_Modular_Base_3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b187f6de-b873-443c-a317-c05cdd62273e",
             "Value": {
                 "id": "aa13f947-ed5a-4e4c-a64a-5c12b583be88",
@@ -1031,6 +1079,14 @@
             }
         },
         {
+            "Key": "b77268b6-64da-46a9-946c-de25be28b80c",
+            "Value": {
+                "id": "fbe44601-4699-46c9-b686-3361d4d570b1",
+                "resourcePath": "objects\\oIsland_Modular_Base_1\\oIsland_Modular_Base_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b9215ef7-2546-4d19-bc7d-da68d25f0366",
             "Value": {
                 "id": "be031fa2-6e67-4ada-8edd-b92d2aeb11c9",
@@ -1067,6 +1123,14 @@
             "Value": {
                 "id": "d2548226-9cb2-4686-99b5-4d3b17aea452",
                 "resourcePath": "objects\\oCameraTarget\\oCameraTarget.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c3c1916f-b569-47dd-bec9-ccf761a55e06",
+            "Value": {
+                "id": "cb810e42-9c8b-4802-93ad-715e5691d0ee",
+                "resourcePath": "objects\\oIsland_Modular_Base_2\\oIsland_Modular_Base_2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1164,6 +1228,14 @@
                 "id": "0eb42d85-9090-4e35-9bca-9fb99df9f546",
                 "resourcePath": "scripts\\scr_wander\\scr_wander.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d530efad-7a35-4470-9a82-41d521b4d4f1",
+            "Value": {
+                "id": "8001ace9-8b56-40f2-a7f1-51842c94d329",
+                "resourcePath": "sprites\\sIsland_Modular_Base_2\\sIsland_Modular_Base_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
