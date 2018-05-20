@@ -1,6 +1,6 @@
 /// @description Save/Load
 
-#region //crt + S = SAVE GAME
+#region //ctrl + S = SAVE GAME
 if keyboard_check_pressed(vk_control) && keyboard_check_pressed(ord("S"))
 {
 	//create root list
@@ -24,6 +24,8 @@ if keyboard_check_pressed(vk_control) && keyboard_check_pressed(ord("S"))
 		//ds_map_add(map, "spd", spd);
 		
 	}
+	
+	ds_map_add(map, "_room", room)
 	//wrap the root LIST up in a MAP!
 	var wrapper = ds_map_create();
 	ds_map_add_list(wrapper, "ROOT", root_list);
@@ -52,6 +54,9 @@ if keyboard_check_pressed(vk_control) && keyboard_check_pressed(ord("L"))
 		for (var i = 0; i < ds_list_size(_list); i++)
 		{
 			var _map = _list[| i];
+			
+			var _room = map[? "_room"]
+			room_goto(_room)
 			
 			var _obj = map[? "obj"];
 			with (instance_create_layer(0,0,layer,asset_get_index(_obj)))

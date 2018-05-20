@@ -92,7 +92,7 @@ if mode = "chase"
 	
 	//default settings  = mp_potential_settings(30,10,3,1)
 	//mp_linear_step(oPlayer.x,oPlayer.y,6,0)
-	mp_potential_step(oPlayer.x,oPlayer.y,spd,0)
+	mp_potential_step(oPlayer.x,oPlayer.y,spd,false)
 	
 	if !collision_circle(x,y,1200,oPlayer,0,0)
 		{
@@ -109,7 +109,7 @@ if mode = "chase"
 #region //shooting
 if mode = "shoot"
 {
-	dir  = point_direction(x,y,oPlayer.x,oPlayer.y)
+	dir  = point_direction(x,y,oPlayer.x,oPlayer.y) + 90
 //	dir = point_direction(x,y,random_range(oPlayer.x + 5,oPlayer.x - 5),random_range(oPlayer.y - 5,oPlayer.y + 5))
 	
 	if bullet_timer >= 1
@@ -148,18 +148,18 @@ else
 {
 	mode = "wander"
 }
-
-
-if mode = "collision avoidance"
+*/
+if collision_circle(x,y,100,oEnemy,false,true)
 {
-	if collision_circle(x,y,100,oEnemy,0,1)
+	if point_distance(other.x,other.y,x,y) < 120
 	{
 		dir = point_direction(other.x,other.y,x,y)
-		x += lengthdir_x(spd,dir)
-		y += lengthdir_y(spd,dir)
+		collision_spd = (point_distance(x,y,other.x,other.y)^(-1))*3
+		x += lengthdir_x(collision_spd,dir)
+		y += lengthdir_y(collision_spd,dir)
 	}
 }
-*/
+
 #region //image direction
 image_angle = 0 
 
