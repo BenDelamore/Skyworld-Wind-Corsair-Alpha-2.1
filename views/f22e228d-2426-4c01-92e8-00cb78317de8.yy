@@ -12,7 +12,11 @@
         "82374ee2-0469-4085-9018-f92f28e0e53a",
         "ab5d2efd-9e10-4fd9-81ed-45c714c0dfc6",
         "687961a8-4cdc-4f30-beb4-9a5bbde55010",
-        "38b44ace-cb62-4f8d-ae42-86b323fde42e"
+        "9f95dc1a-283b-4694-80a1-e3916828c570",
+        "38b44ace-cb62-4f8d-ae42-86b323fde42e",
+        "6d81c499-2fa0-4d94-8e87-2517e452fbd2",
+        "8aaabf48-613e-4fcf-9298-7e1c59b96e15",
+        "da08a26e-1026-4e50-953b-b433e80e5d1d"
     ],
     "filterType": "GMObject",
     "folderName": "Environment Stuff",

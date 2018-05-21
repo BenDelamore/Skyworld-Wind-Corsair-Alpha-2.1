@@ -237,11 +237,26 @@ if y > room_height - global.edge
 
 #endregion
 
+if oPlayer.hp < 50
+{
+	spawn_health = choose(true,false)
+}
+
+if oPlayer.hp < 30 {spawn_health = true}
+
 #region //death
 if hp <= 0
 {
 	bullet_timer = -1000
 	flame_frame += 0.2
+	
+	
+	if spawn_health = true
+	{
+		instance_create_layer(x,y,"player_layer",oHealth_Drop)
+		spawn_health = false
+	}
+	
 	/*
 	flame_frame = clamp(flame_frame,0,sprite_get_number(sExplosion)) 	
 	repeat random(10)

@@ -52,6 +52,12 @@ collision_spd = 0
 death_timer = 0 //(sprite_get_number(sExplosion) * 5)
 flame_frame = 0
 
+spawn_health = false
+if irandom(10)=10
+{
+	spawn_health = true
+}
+
 //Detection circle for music
 detection_circle = 1200
 detection = 0

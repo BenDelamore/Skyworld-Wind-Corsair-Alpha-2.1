@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "2fc4e9e3-a32a-4bf1-9c85-99cac01b0a2a",
+            "Value": {
+                "id": "6d98e7b2-4949-4d89-aa62-d4cb7f4f984a",
+                "resourcePath": "sprites\\sHealth_Drop\\sHealth_Drop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "31b7dfbe-cc2a-4a8f-a458-2a740c20fdd6",
             "Value": {
                 "id": "7021d56e-bb4b-4c00-ac84-7b5d946c9600",
@@ -887,6 +895,14 @@
             }
         },
         {
+            "Key": "95f6d343-e406-4dae-ade4-2116f2dcefe0",
+            "Value": {
+                "id": "df1b4ebb-ff8a-41a2-8037-cc8f1064b769",
+                "resourcePath": "objects\\oDisplay_manager\\oDisplay_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "961a78e0-01aa-43d0-95d1-9d22b32e091f",
             "Value": {
                 "id": "4fc735ec-5bc1-455d-9d06-59a79cd9c44d",
@@ -939,6 +955,14 @@
             "Value": {
                 "id": "b847a05d-094a-40a8-805d-18d17e44472a",
                 "resourcePath": "objects\\o_move_away\\o_move_away.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9f95dc1a-283b-4694-80a1-e3916828c570",
+            "Value": {
+                "id": "3b863fd6-3ca9-48fa-bff1-5b08f4dad5a1",
+                "resourcePath": "objects\\oParticle_Background_Clouds_1\\oParticle_Background_Clouds_1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1132,6 +1156,14 @@
                 "id": "d2548226-9cb2-4686-99b5-4d3b17aea452",
                 "resourcePath": "objects\\oCameraTarget\\oCameraTarget.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c0ffcdf5-cb28-44f6-ba57-3173c0deeca9",
+            "Value": {
+                "id": "6ecc27f6-fabe-4da5-b367-d8c5b5302673",
+                "resourcePath": "sprites\\sBalloon_Drop_Collision\\sBalloon_Drop_Collision.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1335,6 +1367,14 @@
             }
         },
         {
+            "Key": "e2abec0a-2fda-46f8-8030-2e2da65c4f2c",
+            "Value": {
+                "id": "2a3b8e34-d84f-45e9-a850-f37d5efc2e3c",
+                "resourcePath": "objects\\oHealth_Drop\\oHealth_Drop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e3b3b853-48eb-4192-8992-bb215b601ad7",
             "Value": {
                 "id": "9ee81858-c128-46ac-8fb7-dfa7ab7c988c",
@@ -1420,6 +1460,14 @@
                 "id": "69f67eb0-685f-41ce-8645-0ab807c86ac0",
                 "resourcePath": "views\\f22e228d-2426-4c01-92e8-00cb78317de8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f2e42cf3-4a09-45a6-8b4d-5561dc17be48",
+            "Value": {
+                "id": "cc694420-99ec-4999-aa90-d9f9891bfa5c",
+                "resourcePath": "sprites\\sMoving_clouds\\sMoving_clouds.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

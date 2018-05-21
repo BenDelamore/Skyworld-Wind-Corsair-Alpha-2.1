@@ -11,10 +11,10 @@ if timer <= -1
 	{
 		randX = random_range(0,room_width)
 		randY = random_range(0,room_height)
-		var create_cloud_1 = instance_create_depth(randX,randY,500,oMoving_cloud_1)
+		var create_cloud_1 = instance_create_depth(randX,randY,640,oMoving_cloud_1)
 		with create_cloud_1
 		{
-			var scale = random_range(0.5,2)
+			var scale = random_range(0.25,1)
 			image_xscale = scale
 			image_yscale = scale
 			moveX = random_range(scale/2.5,scale/2)
@@ -26,10 +26,10 @@ if timer <= -1
 	{
 		randX = random_range(0,room_width)
 		randY = random_range(0,room_height)
-		var create_cloud_2 = instance_create_depth(randX,randY,400,oMoving_cloud_2)
+		var create_cloud_2 = instance_create_depth(randX,randY,630,oMoving_cloud_2)
 		with create_cloud_2
 		{
-			var scale = random_range(0.5,2)
+			var scale = random_range(0.25,1)
 			image_xscale = scale
 			image_yscale = scale
 			moveX = random_range(scale/2.5,scale/2)
@@ -41,10 +41,10 @@ if timer <= -1
 	{
 		randX = random_range(0,room_width)
 		randY = random_range(0,room_height)
-		var create_cloud_3 = instance_create_depth(randX,randY,600,oMoving_cloud_3)
+		var create_cloud_3 = instance_create_depth(randX,randY,650,oMoving_cloud_3)
 		with create_cloud_3
 		{
-			var scale = random_range(0.75,2)
+			var scale = random_range(0.75,1.25)
 			image_xscale = scale
 			image_yscale = scale
 			moveX = random_range(scale/10,scale/8)
@@ -57,13 +57,14 @@ if timer <= -1
 
 timer += 1
 
+#region //Cloud Spawner
 if timer >= room_speed*10
 {
 	switch (irandom_range(0,array_length_1d(create_cloud)))
 	{
 		case 0: 
 		{
-			with instance_create_depth(-200,randY,350,oMoving_cloud_1)
+			with instance_create_depth(-200,randY,640,oMoving_cloud_1)
 			{
 				var scale = random_range(0.5,2)
 				image_xscale = scale
@@ -76,7 +77,7 @@ if timer >= room_speed*10
 		}
 		case 1:
 		{
-			with instance_create_depth(-200,randY,300,oMoving_cloud_2)
+			with instance_create_depth(-200,randY,630,oMoving_cloud_2)
 			{
 				var scale = random_range(0.5,2)
 				image_xscale = scale
@@ -89,7 +90,7 @@ if timer >= room_speed*10
 		}
 		case 2:
 		{
-			with instance_create_depth(-200,randY,300,oMoving_cloud_3)
+			with instance_create_depth(-200,randY,650,oMoving_cloud_3)
 			{
 				var scale = random_range(0.75,2)
 				image_xscale = scale
@@ -103,3 +104,4 @@ if timer >= room_speed*10
 		}
 	}
 }
+#endregion
