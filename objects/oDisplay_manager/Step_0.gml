@@ -1,5 +1,5 @@
-/// @description 
-
+/// @description Zoom
+/*
 
 //Zoom
 if mouse_check_button(ev_mouse_wheel_down)

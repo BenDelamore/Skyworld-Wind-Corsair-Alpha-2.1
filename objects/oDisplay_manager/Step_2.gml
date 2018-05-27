@@ -1,4 +1,4 @@
-/// @description 
+/// @description Follow Player
 
 //Follow Player
 view_x = oPlayer.x - global.view_w/2;
