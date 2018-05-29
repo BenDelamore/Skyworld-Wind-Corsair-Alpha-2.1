@@ -26,11 +26,11 @@ flame_frame = 0
 
 
 //Creating Weapon hardpoints
-if global.Weapon_Ballistae = true {instance_create_layer(x+64,y+2,"weapon_layer",oBallistae1)}
+if global.Weapon_Ballistae = true {instance_create_layer(x+64,y+2,"player_layer",oBallistae1)}
 
-if global.Weapon_Ballistae2 = true {instance_create_layer(x+64,y+2,"weapon_layer",oBallistae2)}
+if global.Weapon_Ballistae2 = true {instance_create_layer(x+64,y+2,"player_layer",oBallistae2)}
 
-if global.Weapon_Catapult = true {instance_create_layer(x,y+2,"weapon_layer",oCatapult1)}
+if global.Weapon_Catapult = true {instance_create_layer(x,y+2,"player_layer",oCatapult1)}
 
 //Weapon Spot creation
 //weapon_spot_1 = instance_create_layer(x+64,y-2,"weapon_layer",global.weapon_1)

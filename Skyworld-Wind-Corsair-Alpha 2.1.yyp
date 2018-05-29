@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "021e167f-a7a8-4906-9ad8-5ff11144931e",
+            "Value": {
+                "id": "2d479d5e-2211-4a5a-ae37-1e122f864ae3",
+                "resourcePath": "paths\\path3\\path3.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "03948660-618e-4b95-bc18-3ce13b6dbeaf",
             "Value": {
                 "id": "d1a7e7a7-7309-4d4a-aa67-6023f4aacecc",
@@ -132,6 +140,14 @@
                 "id": "eef4ebc9-0c3a-4d24-ada6-ac986084c958",
                 "resourcePath": "scripts\\scr_movement_3\\scr_movement_3.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "189b65a5-58aa-453c-9b25-2e5d8f14a2f4",
+            "Value": {
+                "id": "9c4ba48d-6193-4428-890d-0f2516ece1c5",
+                "resourcePath": "views\\189b65a5-58aa-453c-9b25-2e5d8f14a2f4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -831,6 +847,14 @@
             }
         },
         {
+            "Key": "82320f1b-b0e0-44f9-8ca6-b5276dc24d44",
+            "Value": {
+                "id": "0bef9f37-d50f-4412-b371-ed23b70d944d",
+                "resourcePath": "paths\\enemy_path_3\\enemy_path_3.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "82374ee2-0469-4085-9018-f92f28e0e53a",
             "Value": {
                 "id": "006c58c0-8c98-491a-b45d-3e266128ecfc",
@@ -1068,6 +1092,14 @@
                 "id": "6c4fd523-6c16-40db-afc9-97c0a098da63",
                 "resourcePath": "scripts\\scr_loadgame\\scr_loadgame.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a8db923d-bf8a-445f-895c-45883f13f669",
+            "Value": {
+                "id": "be4635fe-5132-4750-a73d-80f6bcf55e45",
+                "resourcePath": "views\\a8db923d-bf8a-445f-895c-45883f13f669.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

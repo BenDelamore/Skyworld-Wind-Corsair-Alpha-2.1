@@ -87,7 +87,7 @@ else
 	}
 }
 #endregion
-	
+
 //drawing black/white fade
 draw_set_alpha(white_alpha)
 draw_set_color(make_color_rgb(255,255,255))

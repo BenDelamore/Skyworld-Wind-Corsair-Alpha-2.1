@@ -11,7 +11,7 @@ if timer <= -1
 	{
 		randX = random_range(0,room_width)
 		randY = random_range(0,room_height)
-		var create_cloud_1 = instance_create_depth(randX,randY,640,oMoving_cloud_1)
+		var create_cloud_1 = instance_create_layer(randX,randY,clouds_layer,oMoving_cloud_1)
 		with create_cloud_1
 		{
 			var scale = random_range(0.25,1)
@@ -26,7 +26,7 @@ if timer <= -1
 	{
 		randX = random_range(0,room_width)
 		randY = random_range(0,room_height)
-		var create_cloud_2 = instance_create_depth(randX,randY,630,oMoving_cloud_2)
+		var create_cloud_2 = instance_create_layer(randX,randY,clouds_layer,oMoving_cloud_2)
 		with create_cloud_2
 		{
 			var scale = random_range(0.25,1)
@@ -41,7 +41,7 @@ if timer <= -1
 	{
 		randX = random_range(0,room_width)
 		randY = random_range(0,room_height)
-		var create_cloud_3 = instance_create_depth(randX,randY,650,oMoving_cloud_3)
+		var create_cloud_3 = instance_create_layer(randX,randY,clouds_layer,oMoving_cloud_3)
 		with create_cloud_3
 		{
 			var scale = random_range(0.75,1.25)
@@ -64,7 +64,7 @@ if timer >= room_speed*10
 	{
 		case 0: 
 		{
-			with instance_create_depth(-200,randY,640,oMoving_cloud_1)
+			with instance_create_layer(-200,randY,clouds_layer,oMoving_cloud_1)
 			{
 				var scale = random_range(0.5,2)
 				image_xscale = scale
@@ -77,7 +77,7 @@ if timer >= room_speed*10
 		}
 		case 1:
 		{
-			with instance_create_depth(-200,randY,630,oMoving_cloud_2)
+			with instance_create_layer(-200,randY,clouds_layer,oMoving_cloud_2)
 			{
 				var scale = random_range(0.5,2)
 				image_xscale = scale
@@ -90,7 +90,7 @@ if timer >= room_speed*10
 		}
 		case 2:
 		{
-			with instance_create_depth(-200,randY,650,oMoving_cloud_3)
+			with instance_create_layer(-200,randY,clouds_layer,oMoving_cloud_3)
 			{
 				var scale = random_range(0.75,2)
 				image_xscale = scale

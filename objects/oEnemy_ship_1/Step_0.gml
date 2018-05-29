@@ -22,7 +22,7 @@ if mode = "patrol"
 }
 #endregion
 
-#region
+#region //idle
 if mode = "idle"
 {
 	counter += 1
@@ -92,7 +92,7 @@ if mode = "chase"
 	
 	//default settings  = mp_potential_settings(30,10,3,1)
 	//mp_linear_step(oPlayer.x,oPlayer.y,6,0)
-	mp_potential_step(oPlayer.x,oPlayer.y,spd,false)
+	mp_potential_step_object(oPlayer.x,oPlayer.y,spd,oSolid)
 	
 	if !collision_circle(x,y,1200,oPlayer,0,0)
 		{
@@ -138,6 +138,8 @@ if mode = "shoot"
 	}
 }
 #endregion
+
+#region //trying to implement collision avoidance
 /*
 //Avoiding other enemy objects
 if collision_circle(x,y,100,oEnemy,0,1)
@@ -159,6 +161,7 @@ if collision_circle(x,y,100,oEnemy,false,true)
 		y += lengthdir_y(collision_spd,dir)
 	}
 }
+#endregion
 
 #region //image direction
 image_angle = 0 
@@ -237,12 +240,14 @@ if y > room_height - global.edge
 
 #endregion
 
+#region //health drop
 if oPlayer.hp < 50
 {
 	spawn_health = choose(true,false)
 }
 
 if oPlayer.hp < 30 {spawn_health = true}
+#endregion
 
 #region //death
 if hp <= 0

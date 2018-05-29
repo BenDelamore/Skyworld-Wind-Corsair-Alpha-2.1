@@ -93,3 +93,8 @@ y = start_y
 
 player_x = oPlayer.x;
 player_y = oPlayer.y;
+
+
+collision_circle = instance_create_layer(x,y,player_layer,oCollision_circle)
+collision_circle.xscale = 0.5
+collision_circle.yscale = 0.5
