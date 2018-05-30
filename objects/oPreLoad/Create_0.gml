@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.player_health = 100
+global.player_health = 1000
 
 global.playerpoints = 50
 global.coins_collected = 0

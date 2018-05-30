@@ -3,7 +3,7 @@
 
 //-----------Create particle system
 clouds = part_system_create()
-	part_system_depth(clouds,700)
+	part_system_depth(clouds,1100)
  
 #region //-----------Create a cloud particle
 cloud_part = part_type_create()

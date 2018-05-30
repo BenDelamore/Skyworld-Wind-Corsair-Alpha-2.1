@@ -12,6 +12,7 @@ y = lerp(y,oPlayer.y,0.1)
 x = clamp(x,cam_width,room_width-(cam_width))
 y = clamp(y,cam_height,room_height-(cam_height))
 
+
 /*
 //Zoom view
 var zoom_speed = 0.1;

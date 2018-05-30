@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "55b38385-5640-4f64-883c-58214e10f4dc",
+            "Value": {
+                "id": "fef751dd-8787-4661-aaf3-2fea7b82aff9",
+                "resourcePath": "objects\\oParallax_controller\\oParallax_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "56097505-32b1-4442-9870-62d864f45ef8",
             "Value": {
                 "id": "11f3b1d6-c67f-4492-882f-f13ced4c6b66",
