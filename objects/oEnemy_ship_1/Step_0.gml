@@ -26,7 +26,7 @@ if mode = "patrol"
 if mode = "idle"
 {
 	counter += 1
-	
+		
 	move_wander = 0
 	if (counter >= room_speed * 3)
 	{
@@ -50,6 +50,8 @@ if mode = "idle"
 if mode = "wander"
 {
 	counter += 1
+	
+	spd = lerp(spd,random_range(0.5,1.5),0.1)
 
 	//transition triggers
 	if (counter >= room_speed * 3)
@@ -88,7 +90,7 @@ if mode = "wander"
 #region //Chase Player
 if mode = "chase"
 {
-	speed = 0
+	spd = lerp(spd,random_range(2.5,3.5),0.1)
 	
 	//default settings  = mp_potential_settings(30,10,3,1)
 	//mp_linear_step(oPlayer.x,oPlayer.y,6,0)
@@ -109,6 +111,10 @@ if mode = "chase"
 #region //shooting
 if mode = "shoot"
 {
+	spd = lerp(spd,0,0.1)
+	x += lengthdir_x(spd,dir)
+	y += lengthdir_y(spd,dir)
+	
 	dir  = point_direction(x,y,oPlayer.x,oPlayer.y) + 90
 //	dir = point_direction(x,y,random_range(oPlayer.x + 5,oPlayer.x - 5),random_range(oPlayer.y - 5,oPlayer.y + 5))
 	

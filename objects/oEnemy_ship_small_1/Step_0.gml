@@ -28,6 +28,9 @@ if mode = "idle"
 {
 	counter += 1
 	
+	//return to stationary
+	if spd > 0 {spd = lerp(spd,0,0.1)}
+	
 	move_wander = 0
 	if (counter >= room_speed * 3)
 	{
@@ -61,7 +64,7 @@ if mode = "idle"
 if mode = "wander"
 {
 	counter += 1
-	spd = 1 + random(2)
+	spd = lerp(spd,random_range(1,2),0.1)
 
 	//transition triggers
 	if (counter >= room_speed * 3)
@@ -100,7 +103,7 @@ if mode = "wander"
 #region //Chase Player
 if mode = "chase"
 {
-	spd = 3 + random(2)
+	spd = lerp(spd,random_range(3,4.5),0.1)
 	dir = point_direction(x,y,oPlayer.x,oPlayer.y)
 	
 	//default settings  = mp_potential_settings(30,10,3,1)
