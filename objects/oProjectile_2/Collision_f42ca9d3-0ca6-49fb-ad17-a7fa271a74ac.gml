@@ -8,8 +8,8 @@ with (other)
 	
 	mode = "knockback"
 	knockback_timer = 0
-	x += lengthdir_x(5,other.direction)
-	y += lengthdir_y(5,other.direction)
+	x += lengthdir_x(6,other.direction)
+	y += lengthdir_y(6,other.direction)
 }
 
 instance_destroy();

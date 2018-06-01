@@ -11,4 +11,6 @@ with (other)
 	y += lengthdir_y(3,other.direction)
 }
 
+oCameraTarget.shake = 1
+
 instance_destroy();

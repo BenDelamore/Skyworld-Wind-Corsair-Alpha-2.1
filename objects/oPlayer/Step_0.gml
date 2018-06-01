@@ -106,7 +106,6 @@ if (hspd != 0)
 	}
 	
 	
-	
 x += hspd
 }
 
@@ -157,6 +156,7 @@ else if hspd > 0.01 {image_xscale = 1}
 #region //----------Player Death
 if hp <= 0
 {
+	oCameraTarget.shake = 15
 	/*
 	flame_frame += 0.2
 	flame_frame = clamp(flame_frame,0,sprite_get_number(sExplosion)) 	
@@ -177,18 +177,17 @@ if hp <= 0
 	death_timer += 1
 	if death_timer = 72
 	{
-		room_restart()
+		//room_restart()
 	#region transition code???
-		/*
+		
 		with (oController)
 		{
 			if (!do_transition)
 			{
-				spawn_room = room_restart()
-				do_transition = true
+				other_transition = true
 			}
 		}
-		*/
+		
 #endregion
 	}
 //	image_alpha -= 0.05

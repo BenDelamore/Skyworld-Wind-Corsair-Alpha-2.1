@@ -5,26 +5,6 @@
     "name": "oProjectile_explosive",
     "eventList": [
         {
-            "id": "6b876c0f-7ef9-4b82-85c7-2a49b7d23906",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "cb30142d-da61-47ec-bfbb-e61c44390a94"
-        },
-        {
-            "id": "3f149d95-abc9-46d4-8c55-2ffc5ff9f643",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 7,
-            "m_owner": "cb30142d-da61-47ec-bfbb-e61c44390a94"
-        },
-        {
             "id": "517f7713-8e3e-44d1-ae0e-eb59c26612f8",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -65,7 +45,7 @@
             "m_owner": "cb30142d-da61-47ec-bfbb-e61c44390a94"
         },
         {
-            "id": "a9ba9852-1bb9-4f8a-a9f8-6fb7c01c7a51",
+            "id": "07c2017e-48b8-490c-8369-4e933194a045",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -73,11 +53,21 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "cb30142d-da61-47ec-bfbb-e61c44390a94"
+        },
+        {
+            "id": "0920c418-3078-4569-87ea-8b9d9c5b9e31",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "293fed85-9530-4aeb-8295-8da7bd3a33ae",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "cb30142d-da61-47ec-bfbb-e61c44390a94"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "90677d7f-8c06-4685-8aa3-e87febe72cb6",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

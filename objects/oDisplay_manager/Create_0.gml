@@ -12,7 +12,7 @@ max_zoom = 1;
 
 aspect_ratio = display_get_width()/display_get_height();
 
-//idael_width = round(ideal_height*aspect_ratio);
+//ideal_width = round(ideal_height*aspect_ratio);
 ideal_height = round(ideal_width/aspect_ratio);
 
 //Check for odd numbers

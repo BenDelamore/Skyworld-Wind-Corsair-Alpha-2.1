@@ -6,6 +6,7 @@ switch (move_position)
 		//room_goto_next()
 #region All other code attempts
 		#region First attempt ----- USING THIS ONE CURRENTLY
+		//Add Save game OVERWRITE code
 		with (oController)
 			{
 				if (!do_transition)
@@ -35,6 +36,7 @@ switch (move_position)
 	}
 	case 1: //--------Continue
 	{
+		//Add LOAD GAME functionality here.
 		//room_goto(global.room_number)		
 #region All other code attempts
 		#region First Code Attempt

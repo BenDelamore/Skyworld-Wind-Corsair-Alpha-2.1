@@ -1,9 +1,11 @@
  /// @description Insert description here
 
 #region //Return to Menu --- backspace
+/*
 if keyboard_check_released(vk_backspace)
 {
-	other_transition = true
+	do_transition = true
+	//other_transition = true
 	//room_goto(room_menu)
 	if do_transition = false
 	{
@@ -21,9 +23,11 @@ if keyboard_check_released(vk_backspace)
 		}
 	}
 }
+*/
 #endregion
 
 #region //Restart --- space
+/*
 if keyboard_check_released(vk_space)
 {
 	other_transition = true
@@ -40,7 +44,23 @@ if keyboard_check_released(vk_space)
 			global.coins_collected = 0
 			room_restart()
 		}
-		//do_transition = true
+	}
+}
+*/
+#endregion
+
+#region //other transition
+if other_transition = true
+{
+	if white_alpha < 1
+	{
+		t2 += 1/60
+		white_alpha = ease("easeinoutcubic",t2) //* amplify + offest;
+	}
+	if (white_alpha >= 1)
+	{
+		global.coins_collected = 0
+		room_restart()
 	}
 }
 #endregion
@@ -70,6 +90,7 @@ if do_transition = true
 	}
 }
 #endregion
+
 #region //Fade out from white
 else
 {

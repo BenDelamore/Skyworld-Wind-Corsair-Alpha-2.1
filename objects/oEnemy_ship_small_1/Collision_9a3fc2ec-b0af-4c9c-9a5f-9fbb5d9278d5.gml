@@ -9,3 +9,5 @@ spd = 10
 
 charge = 0
 charge_timer = 0
+
+oCameraTarget.shake = 5

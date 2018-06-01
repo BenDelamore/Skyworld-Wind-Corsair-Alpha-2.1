@@ -26,6 +26,7 @@ if keyboard_check_pressed(vk_control) && keyboard_check_pressed(ord("S"))
 	}
 	
 	ds_map_add(map, "_room", room)
+	
 	//wrap the root LIST up in a MAP!
 	var wrapper = ds_map_create();
 	ds_map_add_list(wrapper, "ROOT", root_list);
@@ -41,6 +42,7 @@ if keyboard_check_pressed(vk_control) && keyboard_check_pressed(ord("S"))
 }
 #endregion
 
+/*
 #region //ctr + L = Load Game
 if keyboard_check_pressed(vk_control) && keyboard_check_pressed(ord("L"))
 {
