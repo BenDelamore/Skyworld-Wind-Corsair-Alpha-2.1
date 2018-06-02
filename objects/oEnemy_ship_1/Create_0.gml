@@ -29,6 +29,22 @@ timer = 4
 //other enemy AI code
 
 #endregion
+/*
+//mp_grid pathfinding stuff
+//pos = 1;
+//xx = path_get_point_x(global.path, pos);
+//yy = path_get_point_y(global.path,pos);
+
+//Create path?
+xx = oPlayer.x
+yy = oPlayer.y
+path = path_add();
+
+alarm[0] = 2*room_speed
+*/
+
+//Basic Collision Set Up
+scr_BasicCollision_init(1);
 
 hp = 100
 

@@ -5,9 +5,23 @@ enum states
 	wander,
 	alert,
 	attack,
-	collision
+	path_following
 }
 
+/*
+//Pathfinding grid
+var cell_size = 64;
+
+var hcells = room_width div cell_size;
+var vcells = room_height div cell_size;
+
+global.ai_grid = mp_grid_create(0,0,hcells,vcells,cell_size,cell_size);
+//global.path = path_add();
+
+mp_grid_add_instances(global.ai_grid,oSolid,true);
+
+//scr_define_path();
+*/
 /*
 enum player_states
 {

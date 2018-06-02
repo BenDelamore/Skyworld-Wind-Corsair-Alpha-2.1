@@ -1,34 +1,6 @@
-#region //Old AI code
-/*
-//states
-state = states.idle
-
-states_array[states.idle] = scr_idle
-states_array[states.wander] = scr_wander
-states_array[states.alert] = scr_alert
-states_array[states.attack] = scr_attack_2
-states_array[states.collision] = scr_enemy_collisiondetection
-
-//movement
-counter = 0
-
-spd = 0.5
-
-my_dir = irandom_range(0,360)
-moveX = lengthdir_x(spd, my_dir)
-moveY = lengthdir_y(spd, my_dir)
-
-//health
-hp = 100
-
-Enemy_firingdelay = 10
-
-timer = 4
-*/
-
-//other enemy AI code
-
-#endregion
+/// @description Inherited event + Individual code
+// Inherit the parent event
+event_inherited();
 
 hp = 50
 
@@ -74,14 +46,5 @@ counter = 0
 
 move_wander = 0
 
-//x = instance_position()
-
 start_x = x
 start_y = y
-
-/*
-x = start_x
-y = start_y
-
-player_x = oPlayer.x;
-player_y = oPlayer.y;

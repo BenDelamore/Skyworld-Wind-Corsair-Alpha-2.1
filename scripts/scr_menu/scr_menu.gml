@@ -11,7 +11,7 @@ switch (move_position)
 			{
 				if (!do_transition)
 				{
-					spawn_room = room_controls
+					spawn_room = room_level1
 					do_transition = true
 				}
 			}

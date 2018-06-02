@@ -1,5 +1,7 @@
 /// @description ALL THE CODE!!
 
+if (global.pause) {exit;}
+
 #region //Path Following
 if mode = "patrol"
 {
@@ -94,15 +96,22 @@ if mode = "chase"
 	
 	//default settings  = mp_potential_settings(30,10,3,1)
 	//mp_linear_step(oPlayer.x,oPlayer.y,6,0)
-	mp_potential_step_object(oPlayer.x,oPlayer.y,spd,oSolid)
+	//mp_potential_step_object(oPlayer.x,oPlayer.y,spd,oSolid)
+	mp_potential_step_object(oPlayer.x,oPlayer.y,spd,oInvisible_wall)
+	
+	//mp_grid_path(global.ai_grid,path,x,y,xx,yy,1);
+	//path_start(path, spd, path_action_stop, 0)
+	//alarm[0] = 0
 	
 	if !collision_circle(x,y,1200,oPlayer,0,0)
 		{
+			path_end();
 			mode = "wander"
 		}
 
 	if collision_circle(x,y,500,oPlayer,0,0)
 	{
+		path_end();
 		mode = "shoot"
 	}
 }
@@ -156,7 +165,7 @@ else
 {
 	mode = "wander"
 }
-*/
+
 if collision_circle(x,y,100,oEnemy,false,true)
 {
 	if point_distance(other.x,other.y,x,y) < 120
@@ -167,6 +176,7 @@ if collision_circle(x,y,100,oEnemy,false,true)
 		y += lengthdir_y(collision_spd,dir)
 	}
 }
+*/
 #endregion
 
 #region //image direction

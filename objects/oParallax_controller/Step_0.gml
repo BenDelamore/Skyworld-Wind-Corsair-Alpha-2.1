@@ -24,4 +24,4 @@ layer_y(lay_id_2,(lerp(0,(room_height-2000), _ypos)))
 //add margins using var hmargin = 200 (etc)
 
 //Parallax particle system - clouds?
-part_system_position(oParticle_Background_Clouds_1.clouds,(lerp(0+500,(room_width-4096)-500, _xpos)),(lerp(0+200,(room_height-1365)-200, _ypos)))
+part_system_position(oParticle_Background_Clouds_1.clouds,(lerp(0+1500,(room_width-4096)-1500, _xpos)),(lerp(0+200,(room_height-1365)-200, _ypos)))

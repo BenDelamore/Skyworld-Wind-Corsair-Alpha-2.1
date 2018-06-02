@@ -1,5 +1,7 @@
 //Boss Ship Code
 
+if (global.pause) {exit;}
+
 #region //Wander
 if mode = "wander"
 {

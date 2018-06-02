@@ -10,7 +10,6 @@
         "2ef88ffe-1ff3-4287-87d2-92fc294802b7",
         "6a969d90-a952-4082-8def-84594dcbaef8",
         "fa55760f-0677-4efa-9966-314f1c0b8069",
-        "6ad17b4c-8f14-40e9-9516-64c6042b63ca",
         "cea964cc-03fb-4893-81f2-5dcf270a0dad",
         "bff37943-a0ab-4255-b7dd-9d72c2ab2484",
         "632958bf-0255-46ca-be4c-b716cfe192fc",
@@ -55,9 +54,12 @@
             "visible": true
         },
         {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Captain_Image_Layer",
-            "id": "c41380cc-e53a-4bdb-8741-7e0b98d12d89",
+            "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Assets_1",
+            "id": "e74bbd0c-0efd-41a4-89a4-73ce24b72e72",
+            "assets": [
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_180373CB","id": "1257e19d-937e-47cf-97d4-b9ad5667fe62","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "dd43ddb2-eb86-48f9-a7ef-255c2329633a","userdefined_animFPS": false,"x": 1280,"y": 1056}
+            ],
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -67,15 +69,12 @@
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
             "inheritVisibility": false,
-            "instances": [
-{"name": "inst_23DD50C7","id": "6ad17b4c-8f14-40e9-9516-64c6042b63ca","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_23DD50C7","objId": "2289562f-df2a-44ce-a07c-0bef1a01ca80","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1248,"y": 1056}
-            ],
             "layers": [
 
             ],
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
-            "modelName": "GMRInstanceLayer",
+            "modelName": "GMRAssetLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
             "visible": true

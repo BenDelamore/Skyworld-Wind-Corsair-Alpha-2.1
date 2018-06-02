@@ -5,7 +5,7 @@ states_array[states.idle] = scr_idle
 states_array[states.wander] = scr_wander
 states_array[states.alert] = scr_alert
 states_array[states.attack] = scr_attack
-states_array[states.collision] = scr_enemy_collisiondetection
+//states_array[states.collision] = scr_enemy_collisiondetection
 
 //movement
 counter = 0

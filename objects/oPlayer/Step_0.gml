@@ -1,3 +1,5 @@
+if (global.pause) {exit;}
+
 #region
 //run script movement
 //script_execute(states_array[state]);
@@ -94,18 +96,16 @@ if (hspd != 0)
 {
 	if (place_meeting(x+hspd, y, oSolid))
 	{
-		if hspd > 2 || hspd < -2
+		if hspd > 2 || hspd < -2 
 		{
-			oPlayer.hp -= abs((hspd*2)^3)
+			oPlayer.hp -= abs((hspd*2)^3);
 		}
-	    
-		while (!place_meeting(x+sign(hspd), y, oSolid)){
-	        x+=sign(hspd);
-	    }
+		//while (!place_meeting(x+sign(hspd), y, oSolid))
+		//{
+			//x+=sign(hspd);
+		//}
 	    hspd=0;
 	}
-	
-	
 x += hspd
 }
 
@@ -119,9 +119,10 @@ if (vspd != 0)
 			oPlayer.hp -= abs((vspd*2)^3)
 		}
 		
-	    while (!place_meeting(x, y+sign(vspd), oSolid)){
-	        y+=sign(vspd);
-	    }
+	   // while (!place_meeting(x, y+sign(vspd), oSolid))
+	   //{
+	    //    y+=sign(vspd);
+	   // }
 	    vspd=0;
 	}
 

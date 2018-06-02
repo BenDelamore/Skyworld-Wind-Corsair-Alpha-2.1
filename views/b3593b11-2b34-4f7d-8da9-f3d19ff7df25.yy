@@ -10,8 +10,7 @@
         "6fbc355f-880c-4deb-9273-85ca8816199c",
         "32cfa45b-6aa4-4369-9dfe-4b4e20b1cd5b",
         "e1b26d78-a3f9-4cb4-9bd7-3f2d95b2849e",
-        "b5a5cd2c-e5af-47b6-ae51-171bb0f1d265",
-        "2289562f-df2a-44ce-a07c-0bef1a01ca80"
+        "b5a5cd2c-e5af-47b6-ae51-171bb0f1d265"
     ],
     "filterType": "GMObject",
     "folderName": "Menu Stuff",

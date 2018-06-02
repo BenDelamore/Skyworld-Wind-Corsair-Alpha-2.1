@@ -114,3 +114,28 @@ draw_set_alpha(white_alpha)
 draw_set_color(make_color_rgb(255,255,255))
 draw_rectangle(0,0,guiWidth,guiHeight,0)
 draw_set_alpha(1)
+
+
+if window_get_fullscreen()
+   {
+   draw_text(32, 32, "Fullscreen is ON");
+   }
+else    {
+   draw_text(32, 32, "Fullscreen is OFF");
+   }
+
+
+
+//Pause Menu stuff
+if (global.pause)
+{
+	draw_set_color(c_black);
+	draw_set_alpha(0.5);
+	draw_rectangle(0,0,guiWidth,guiHeight,0);
+	draw_set_halign(fa_center);
+	draw_set_font(fnt_health);
+	draw_set_color(c_white);
+	draw_set_alpha(1)
+	draw_text(guiWidth/2,guiHeight/12,"game paused")
+	draw_set_color(c_black)
+}

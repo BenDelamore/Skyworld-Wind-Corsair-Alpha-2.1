@@ -13,7 +13,8 @@ if(counter >= room_speed * 3)
 			case 1: counter = 0; break;
 		}
 	}
-if(collision_circle(x,y, 1000, oPlayer, false, false))
+
+if(collision_line(x,y,oPlayer.x,oPlayer.y,oSolid,false,true))
 	{
 		state = states.alert; 
 	}

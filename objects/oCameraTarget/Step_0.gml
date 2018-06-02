@@ -1,7 +1,9 @@
 /// @description Camera Border control thingy
 
 //Finally a border control!!!! ...That isn't working properly????
-var camera = camera_get_active()
+camera = camera_get_active()
+
+//camera_set_view_size(camera,guiWidth,guiHeight)
 
 var cam_width = (camera_get_view_width(camera)/2)
 var cam_height = (camera_get_view_height(camera)/2)
@@ -11,15 +13,19 @@ var cam_height = (camera_get_view_height(camera)/2)
 
 /*
 //Zoom view
-var zoom_speed = 0.1;
-view_zoom += ev_mouse_wheel_up*zoom_speed
-view_zoom -= ev_mouse_wheel_down*zoom_speed
+var zoom_speed = 2;
+view_zoom += mouse_wheel_up()*zoom_speed
+view_zoom -= mouse_wheel_down()*zoom_speed
 
-view_zoom = clamp(view_zoom,1,view_max_zoom);
+view_zoom = clamp(view_zoom,view_min_zoom,view_max_zoom);
 
-viewW = oDisplay_manager.ideal_width/view_zoom;
-viewH = oDisplay_manager.ideal_height/view_zoom;
+camera_set_view_size(camera,view_zoom,view_zoom) 
+
+//viewW = oDisplay_manager.ideal_width/view_zoom;
+//viewH = oDisplay_manager.ideal_height/view_zoom;
 */
+
+if (global.pause) {exit;}
 
 //Dynamic Camera
 var xTo, yTo;

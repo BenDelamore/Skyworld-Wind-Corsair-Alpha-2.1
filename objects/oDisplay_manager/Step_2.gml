@@ -2,8 +2,11 @@
 
 #region //my code attempts...
 //Follow Player
-view_x = oPlayer.x - global.view_w/2;
-view_y = oPlayer.y - global.view_h/2;
+if instance_exists(oPlayer)
+{
+	view_x = oPlayer.x - global.view_w/2;
+	view_y = oPlayer.y - global.view_h/2;
+}
 
 view_x = clamp(view_x,global.view_w,room_width-global.view_w)
 view_y = clamp(view_y,global.view_h,room_height-global.view_h)

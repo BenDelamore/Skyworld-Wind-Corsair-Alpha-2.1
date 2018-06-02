@@ -1,5 +1,7 @@
 /// @description ALL THE CODE!!
 
+if (global.pause) {exit;}
+
 #region //Path Following
 if mode = "patrol"
 {
