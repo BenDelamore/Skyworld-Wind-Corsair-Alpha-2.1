@@ -7,3 +7,5 @@ button = false
 button_pressed = false
 
 button_timer = 0
+
+button_action = scr_button_false()

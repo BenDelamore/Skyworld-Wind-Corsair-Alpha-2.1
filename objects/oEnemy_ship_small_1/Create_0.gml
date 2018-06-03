@@ -2,6 +2,8 @@
 // Inherit the parent event
 event_inherited();
 
+states_array[states.attack] = scr_attack_2
+
 hp = 50
 
 dir = 0
@@ -34,12 +36,12 @@ set_path = noone
 if set_path != noone
 {
 	path_start(set_path,spd,path_action_continue,false)
-	mode = "patrol"
+	state = states.path_following
 }
 else
 {
 	//Mode/state
-	mode = "wander"
+	state = states.wander
 }
 
 counter = 0

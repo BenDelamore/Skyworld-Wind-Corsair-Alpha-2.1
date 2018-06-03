@@ -14,7 +14,7 @@ view_set_hport(view_camera[0],screen_height)
 view_xport[0] = 0
 view_yport[0] = 0
 
-display_set_gui_size(screen_width,screen_height)
+//display_set_gui_size(screen_width,screen_height)
 
 guiWidth = display_get_gui_width();
 guiHeight = display_get_gui_height();

@@ -1,7 +1,6 @@
 if (global.pause) {exit;}
 
-#region
-//run script movement
+#region //run script movement
 //script_execute(states_array[state]);
 #endregion
 
@@ -96,6 +95,12 @@ if (hspd != 0)
 {
 	if (place_meeting(x+hspd, y, oSolid))
 	{
+		if !audio_is_playing(sfx_crash_1)
+		{
+			audio_play_sound(sfx_crash_1,80,false)
+			audio_sound_gain(sfx_crash_1,0.7,0)
+		}
+		
 		if hspd > 2 || hspd < -2 
 		{
 			oPlayer.hp -= abs((hspd*2)^3);
@@ -114,6 +119,13 @@ if (vspd != 0)
 {
 	if (place_meeting(x, y+vspd, oSolid))
 	{
+		if !audio_is_playing(sfx_crash_1)
+		{
+			audio_play_sound(sfx_crash_1,80,false)
+			audio_sound_gain(sfx_crash_1,0.7,0)
+		}
+
+		
 		if vspd > 2 || vspd < -2
 		{
 			oPlayer.hp -= abs((vspd*2)^3)
@@ -128,6 +140,67 @@ if (vspd != 0)
 
 y += vspd
 }
+#endregion
+
+if hspd < 0.01 && hspd > -0.01 {hspd = 0}
+if vspd < 0.01 && vspd > -0.01 {vspd = 0}
+
+
+#region//Engine Audio?
+/*
+if hspd > 0.1 || hspd < -0.1
+{
+	gear = abs(round(hspd*2))
+	
+	if !audio_is_playing(sfx_engine)
+	{
+		audio_play_sound(sfx_engine,80,true)
+		audio_sound_gain(sfx_engine,0,0)
+		audio_sound_gain(sfx_engine,0.5,1000)
+	}
+	
+	if audio_is_playing(sfx_engine)
+	{
+		switch (gear)
+	   {
+		   case 1: audio_sound_pitch(sfx_engine, 0.5); break;
+		   case 2: audio_sound_pitch(sfx_engine, 0.6); break;
+		   case 3: audio_sound_pitch(sfx_engine, 0.75); break;
+		   case 4: audio_sound_pitch(sfx_engine, 0.87); break;
+		   case 5: audio_sound_pitch(sfx_engine, 1); break;
+	   }
+	}
+}
+else
+{
+	if audio_is_playing(sfx_engine)
+	{
+		audio_sound_gain(sfx_engine,0,500)
+	}
+	if audio_sound_get_gain(sfx_engine) <= 0
+	{
+		audio_stop_sound(sfx_engine)
+	}	
+}
+*/
+#endregion
+
+
+#region //Smoke trail effect
+/*
+if hp < 85 && smoke = false
+{
+	with instance_create_layer(oPlayer.x-200,oPlayer.y+100,"player_layer",oParticle_smoke)
+	{
+		owner = oPlayer
+	}
+	smoke = true
+}
+else if hp >= 85 && smoke = true
+{
+	smoke = false
+}
+*/
 #endregion
 
 #region //----------Room Transition Collisions
@@ -158,6 +231,8 @@ else if hspd > 0.01 {image_xscale = 1}
 if hp <= 0
 {
 	oCameraTarget.shake = 15
+	dead = true
+}
 	/*
 	flame_frame += 0.2
 	flame_frame = clamp(flame_frame,0,sprite_get_number(sExplosion)) 	
@@ -166,6 +241,8 @@ if hp <= 0
 		instance_create_layer(x,y,"projectiles_layer",oSpark)
 	}
 	*/
+if dead = true
+{
 	if death_timer <= 1
 	{
 		with instance_create_layer(x,y,"projectiles_layer",oExplosion)
@@ -180,7 +257,6 @@ if hp <= 0
 	{
 		//room_restart()
 	#region transition code???
-		
 		with (oController)
 		{
 			if (!do_transition)
@@ -188,11 +264,11 @@ if hp <= 0
 				other_transition = true
 			}
 		}
-		
 #endregion
 	}
-//	image_alpha -= 0.05
 }
+//	image_alpha -= 0.05
+
 //if image_alpha = 0
 //{
 //	room_restart()

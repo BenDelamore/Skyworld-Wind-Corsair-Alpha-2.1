@@ -16,6 +16,7 @@ if position_meeting(mouse_x,mouse_y,self)
 	{
 		button_pressed = true
 		button_timer = 60
+		script_execute(button_action)
 	}
 }
 

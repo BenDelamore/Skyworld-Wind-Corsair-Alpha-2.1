@@ -1,5 +1,7 @@
 /// @description trail particle system
 
+owner = instance_nearest(x,y,oProjectile)
+
 //-----------Create particle system
 //create particle system
 trail = part_system_create()
@@ -11,9 +13,9 @@ part_emitter_region(trail,trail_emitter,x-2,x+2,y-2,y+2,ps_shape_ellipse,ps_dist
 trail_part = part_type_create()
 	
 	//create particle effect
-	part_type_speed(trail_part,0,0,0,0)
-	part_type_direction(trail_part,0,0,0,0)
-	part_type_life(trail_part,20,20)
+	part_type_speed(trail_part,1,1,0,0)
+	part_type_direction(trail_part,owner.direction,owner.direction,0,0)
+	part_type_life(trail_part,30,30)
 	part_type_alpha2(trail_part,1,0)
 	//part_type_sprite(part,sWind,1,true,true)
 	part_type_shape(trail_part,pt_shape_pixel) 
@@ -26,8 +28,8 @@ trail_part = part_type_create()
 
 //part_emitter_stream(system,emitter,part,-20)
 
-part_emitter_burst(trail,trail_emitter,trail_part,15)
+part_emitter_stream(trail,trail_emitter,trail_part,20)
 
-timer = 25
+timer = 35
 
 

@@ -4,6 +4,7 @@ switch (move_position)
 	case 0: //--------Start
 	{
 		//room_goto_next()
+		//ADD SAVE GAME OVERWRITE HERE
 #region All other code attempts
 		#region First attempt ----- USING THIS ONE CURRENTLY
 		//Add Save game OVERWRITE code

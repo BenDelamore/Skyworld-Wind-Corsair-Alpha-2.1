@@ -51,3 +51,5 @@ offset = 0
 //player_health = global.player_health
 
 //global.room_number = layer_get_target_room()
+
+smoke = false

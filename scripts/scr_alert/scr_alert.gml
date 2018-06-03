@@ -1,45 +1,56 @@
 
 //transition triggers
-if (!collision_circle(x,y, 1200, oPlayer, false, false))
-{
-	state = states.wander; 
-}
+if (collision_line(x,y,oPlayer.x,oPlayer.y,oPlayer,false,true)) 
+	{
+		if collision_line(x,y,oPlayer.x,oPlayer.y,oSolid,true,false)
+		{
+			state = states.wander; 
+		}
+	}
 
 
 if (collision_circle(x,y, 600, oPlayer, false, false))
 {
-//	my_dir = point_direction(oPlayer.x,oPlayer.y,x,y)
-//	moveX = lengthdir_x(spd, my_dir)
-//	moveY = lengthdir_x(spd, my_dir)
-//	x += moveX
-//	y += moveY
-	
 	state = states.attack; 
 }
-
 else //if (collision_circle(x,y, 1020, oPlayer, false, false))
 {
-	my_dir = point_direction(x,y, oPlayer.x, oPlayer.y)
+	spd = lerp(spd,random_range(2.5,3.5),0.1)
+	dir = point_direction(x,y, oPlayer.x, oPlayer.y)
 	
 //default settings  = mp_potential_settings(30,10,3,1)
-	mp_potential_settings(45,45,10,1)
-	mp_potential_step(oPlayer.x,oPlayer.y,spd,0)
+	//mp_potential_settings(45,45,10,1)
+	mp_potential_step_object(oPlayer.x,oPlayer.y,spd,oInvisible_wall)
+}
 
 /*
-	if speed < 2
+#region //Chase Player
+if mode = "chase"
+{
+	spd = lerp(spd,random_range(2.5,3.5),0.1)
+	
+	//default settings  = mp_potential_settings(30,10,3,1)
+	//mp_linear_step(oPlayer.x,oPlayer.y,6,0)
+	//mp_potential_step_object(oPlayer.x,oPlayer.y,spd,oSolid)
+	mp_potential_step_object(oPlayer.x,oPlayer.y,spd,oInvisible_wall)
+	
+	//mp_grid_path(global.ai_grid,path,x,y,xx,yy,1);
+	//path_start(path, spd, path_action_stop, 0)
+	//alarm[0] = 0
+	
+	if !collision_circle(x,y,1200,oPlayer,0,0)
+		{
+			path_end();
+			mode = "wander"
+		}
+
+	if collision_circle(x,y,500,oPlayer,0,0)
 	{
-		moveX += lengthdir_x(spd, my_dir);
-		moveY += lengthdir_y(spd, my_dir);
+		path_end();
+		mode = "shoot"
 	}
-	else
-	{
-		moveX = lengthdir_x(2, my_dir);
-		moveY = lengthdir_y(2, my_dir);		
-	}
-	x += moveX
-	y += moveY
-*/
 }
+#endregion
 
 //sprite
 //image_xscale = sign(moveX)

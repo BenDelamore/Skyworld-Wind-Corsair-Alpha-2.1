@@ -1,5 +1,5 @@
 /// @descr Draw health/self
-
+/*
 if hp >= 1
 {
 	draw_set_font(fnt_health)
@@ -9,7 +9,7 @@ if hp >= 1
 	
 	draw_healthbar(x-30,y-100,x+10,y-92,hp,0,c_red,c_green,0,0,0)
 }
-
+*/
 draw_self()
 
 /*

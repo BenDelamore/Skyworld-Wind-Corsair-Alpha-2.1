@@ -13,6 +13,10 @@ if move != 0
 var push;
 push = max(keyboard_check_released(vk_enter), 0)
 
-if push = 1	{scr_menu()}
+if push = 1	
+{
+	audio_play_sound(sfx_click,50,false)
+	scr_menu()
+}
 
 

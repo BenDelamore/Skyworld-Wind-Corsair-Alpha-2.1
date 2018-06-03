@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Player variables
-global.player_health = 1000;
+global.player_health = 500;
 
 global.playerpoints = 50;
 global.coins_collected = 0;

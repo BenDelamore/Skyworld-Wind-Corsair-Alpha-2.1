@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-draw_self()
+//draw_self()
 
 //draw_text(25,25,(string("COINS	 =	 ") + string(global.playerpoints)))
 
