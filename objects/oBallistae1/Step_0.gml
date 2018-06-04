@@ -54,7 +54,7 @@ if (mouse_check_button(mb_left)) && (firing_delay < 0)
 	firing_delay = firing_delay_max;
 	with (instance_create_layer(x,y,"projectiles_layer",oProjectile))
 	{
-		speed = (other.projectile_speed + (oPlayer.spd));
+		speed = (other.projectile_speed) //+ (oPlayer.spd));
 		
 		direction = (other.image_angle + random_range(-3,3));
 		image_angle = direction;

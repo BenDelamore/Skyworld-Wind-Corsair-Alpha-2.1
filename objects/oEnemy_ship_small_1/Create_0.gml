@@ -4,7 +4,7 @@ event_inherited();
 
 states_array[states.attack] = scr_attack_2
 
-hp = 50
+hp = 44
 
 dir = 0
 spd = 3 + random(2)
