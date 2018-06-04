@@ -3,7 +3,22 @@ switch (move_position)
 {
 	case 0: 
 	{
+		global.room_number = room_level0
 		//room_goto(room_level1);
+		with (oController)
+			{
+				if (!do_transition)
+				{
+					spawn_room = room_level0
+					do_transition = true
+				}
+			}
+		break;
+	}
+	case 1:
+	{
+		global.room_number = room_level1
+		//room_goto(room_level2)
 		with (oController)
 			{
 				if (!do_transition)
@@ -14,21 +29,9 @@ switch (move_position)
 			}
 		break;
 	}
-	case 1:
-	{
-		//room_goto(room_level2)
-		with (oController)
-			{
-				if (!do_transition)
-				{
-					spawn_room = room_level2
-					do_transition = true
-				}
-			}
-		break;
-	}
 	case 2:
 	{
+		global.room_number = room_level3
 		//room_goto(room_level3)
 		with (oController)
 			{

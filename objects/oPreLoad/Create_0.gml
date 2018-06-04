@@ -2,13 +2,16 @@
 // You can write your code in this editor
 
 //Player variables
-global.player_health = 500;
+global.player_health = 100;
 
-global.playerpoints = 50;
+global.playerpoints = 0;
 global.coins_collected = 0;
 
 global.maxhspd = 4.5;
 global.maxvspd = 4.5;
+
+global.spawnX = 300
+global.spawnY = room_height/2
 
 //Weapons 1
 global.Weapon_Ballistae = true;

@@ -10,12 +10,22 @@ if move != 0
 	if move_position > array_length_1d(menu) - 1	{move_position = 0}
 }
 
-var push;
-push = max(keyboard_check_released(vk_enter), 0)
+if push_timer >= 0 
+{
+	push_timer -= 1
+}
+
+if keyboard_check_released(vk_enter) && push_timer <= 0
+{
+	push = 1
+	push_timer = 60
+}
+//push = max(keyboard_check_released(vk_enter), 0)
 
 if push = 1	
 {
 	audio_play_sound(sfx_click,50,false)
+	audio_sound_gain(sfx_click,1.5,0)
 	scr_menu()
 }
 

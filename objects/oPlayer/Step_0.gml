@@ -145,6 +145,7 @@ y += vspd
 if hspd < 0.01 && hspd > -0.01 {hspd = 0}
 if vspd < 0.01 && vspd > -0.01 {vspd = 0}
 
+spd = sqrt(hspd*hspd + vspd*vspd)
 
 #region//Engine Audio?
 /*
@@ -212,6 +213,7 @@ if (inst != noone && keyboard_check_released(vk_enter))
 		if (!do_transition)
 		{
 			spawn_room = inst.target_room
+			global.room_number = inst.level_complete
 			//spawnX = inst.spawnX
 			//spawnY = inst.spawnY
 			do_transition = true

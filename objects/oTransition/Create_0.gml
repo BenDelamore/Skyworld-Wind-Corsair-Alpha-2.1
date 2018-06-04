@@ -9,3 +9,5 @@ text = "Press 'Enter' to continue"
 
 spawnX = 0
 spawnY = room_width/2
+
+level_complete = room_level0

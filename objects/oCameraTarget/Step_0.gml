@@ -5,8 +5,8 @@ camera = camera_get_active()
 
 //camera_set_view_size(camera,guiWidth,guiHeight)
 
-var cam_width = (camera_get_view_width(camera)/2)
-var cam_height = (camera_get_view_height(camera)/2)
+var cam_width = (camera_get_view_width(camera))/2
+var cam_height = (camera_get_view_height(camera))/2
 
 //x = lerp(x,oPlayer.x,0.1)
 //y = lerp(y,oPlayer.y,0.1)
@@ -50,6 +50,7 @@ else
 }
 
 //Keep camera in room
+/*
 x = clamp(x,cam_width,room_width-(cam_width))
 y = clamp(y,cam_height,room_height-(cam_height))
 
