@@ -145,7 +145,8 @@ y += vspd
 if hspd < 0.01 && hspd > -0.01 {hspd = 0}
 if vspd < 0.01 && vspd > -0.01 {vspd = 0}
 
-spd = sqrt(hspd*hspd + vspd*vspd)
+//spd = sqrt(hspd*hspd + vspd*vspd)
+spd = point_distance(x,y,x+hspd,y+vspd)
 
 #region//Engine Audio?
 /*

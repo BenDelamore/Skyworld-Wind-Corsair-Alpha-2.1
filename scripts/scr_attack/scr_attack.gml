@@ -1,6 +1,13 @@
 //behaviour
+if !place_meeting(lengthdir_x(spd,dir),lengthdir_y(spd,dir), oInvisible_wall)
+{
 dir = point_direction(oPlayer.x, oPlayer.y,x,y)+90
-spd = lerp(spd,random_range(0.5,1.5),0.1)
+}
+else if !place_meeting(lengthdir_x(spd,dir),lengthdir_y(spd,dir), oInvisible_wall)
+{
+	dir = point_direction(oPlayer.x,oPlayer.y,x,y)-90
+}
+spd = lerp(spd,random_range(1,1.5),0.1)
 	
 x += lengthdir_x(spd,dir)
 y += lengthdir_y(spd,dir)

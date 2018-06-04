@@ -35,7 +35,7 @@
 	{
 	//	if spd >= 0
 	//	{
-			spd = lerp(spd,0,0.1)
+			spd -= lerp(spd,0,0.1)
 	//	}
 	}
 
