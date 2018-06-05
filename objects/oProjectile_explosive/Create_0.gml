@@ -6,4 +6,4 @@ event_inherited();
 
 rotation = 0;
 
-grav = 0.6;
+grav = 0.3;

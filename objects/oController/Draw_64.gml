@@ -115,6 +115,9 @@ draw_set_color(make_color_rgb(255,255,255))
 draw_rectangle(0,0,guiWidth,guiHeight,0)
 draw_set_alpha(1)
 
+guiWidth = display_get_width()
+guiHeight = display_get_height()
+
 
 if window_get_fullscreen()
    {

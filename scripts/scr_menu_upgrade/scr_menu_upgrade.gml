@@ -17,31 +17,35 @@ switch (move_position)
 	
 	case 1:
 	{
-		if global.playerpoints >= 10
+		if global.playerpoints >= 5
 		{
-			global.player_health += 5
-			global.playerpoints -= 10
+			global.player_health += 10
+			global.playerpoints -= 5
 		}
 		break;
 	}
 	
 	case 2:
 	{
-		if global.playerpoints >= 15 and global.maxhspd <= 7
+		if global.playerpoints >= 2 && global.maxhspd <= 7
 		{
-			global.maxhspd += 0.1
-			global.maxvspd += 0.1
-			global.playerpoints -= 15
+			global.maxhspd += 0.2
+			global.maxvspd += 0.2
+			global.playerpoints -= 2
 		}
 		break;
 	}
 	
 	case 3:
 	{
-		if global.playerpoints >= 40 and global.Weapon_Catapult = false
+		if global.playerpoints >= 30 && global.catapult_ammo != oProjectile_explosive
 		{
+			if global.catapult_ammo = oProjectile_Boulder
+			{
+				global.catapult_ammo = oProjectile_explosive
+			}
 			global.Weapon_Catapult = true;
-			global.playerpoints -= 40
+			global.playerpoints -= 30
 		}
 			break;
 	}
