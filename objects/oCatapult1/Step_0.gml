@@ -31,7 +31,7 @@ if mouse_check_button_released(mb_right) && (firing_delay < 0)
 	image_index = 1
 	recoil = 59;
 	firing_delay = 60;
-	with (instance_create_layer(x,y,"projectiles_layer",oProjectile_explosive))
+	with (instance_create_layer(x,y,"projectiles_layer",ammo))
 	{
 		speed = (((oCatapult1.boulderspeed)/10 + (oPlayer.spd)));
 	

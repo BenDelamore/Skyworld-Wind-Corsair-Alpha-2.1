@@ -22,6 +22,8 @@ global.Weapon_Ballistae2 = false;
 global.weapon_1 = global.Weapon_Ballistae;
 global.weapon_2 = false;
 
+global.catapult_ammo = oProjectile_Boulder
+
 //Current level
 global.room_number = room_level0;
 

@@ -35,7 +35,7 @@ switch (move_position)
 	}
 	case 2:
 	{
-		global.room_number = room_level3
+		global.room_number = room_level2
 		global.spawnX = 0
 		global.spawnY = 1000
 		//room_goto(room_level3)
@@ -43,7 +43,7 @@ switch (move_position)
 			{
 				if (!do_transition)
 				{
-					spawn_room = room_level3
+					spawn_room = room_level2
 					do_transition = true
 				}
 			}

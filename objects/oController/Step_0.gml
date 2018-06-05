@@ -23,7 +23,7 @@ if keyboard_check_released(vk_delete)
 
 
 #region //Fullscreen
-if keyboard_check_pressed(ord("F"))
+if keyboard_check_pressed(vk_f11)
 {
 	if window_get_fullscreen() 
 	{

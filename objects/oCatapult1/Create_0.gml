@@ -8,3 +8,5 @@ grv = 0;
 
 boulderspeed = 0
 max_boulderspeed = 100
+
+ammo = global.catapult_ammo

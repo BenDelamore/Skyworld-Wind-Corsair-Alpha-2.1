@@ -8,8 +8,8 @@
         "7d2fc476-656b-453f-861a-3eb16d82c59c",
         "c7e4bf9c-3ab7-4be7-a34d-c8bbcb3f8878",
         "ac11d701-247c-4a6b-859b-e1a59fcec54c",
-        "7eccbf41-ff2c-49b1-930b-b46f65cb92aa",
-        "2c7d31e0-4773-45e9-96a3-05efe9c161af"
+        "2c7d31e0-4773-45e9-96a3-05efe9c161af",
+        "df3760a3-2624-475f-8887-43eff6350e59"
     ],
     "filterType": "GMSprite",
     "folderName": "Weapons and Projectiles",

@@ -126,7 +126,7 @@ else    {
 
 
 
-//Pause Menu stuff
+#region//Pause Menu stuff
 if (global.pause)
 {
 	draw_set_color(c_black);
@@ -139,3 +139,4 @@ if (global.pause)
 	draw_text(guiWidth/2,guiHeight/12,"game paused")
 	draw_set_color(c_black)
 }
+#endregion

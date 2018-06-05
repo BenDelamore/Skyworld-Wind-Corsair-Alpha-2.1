@@ -5,16 +5,6 @@
     "name": "oProjectile",
     "eventList": [
         {
-            "id": "b2c3eb57-3027-4d2a-85e5-7ba722a4bb9e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
-            "m_owner": "90677d7f-8c06-4685-8aa3-e87febe72cb6"
-        },
-        {
             "id": "c76fb3a7-dd03-4de9-96fa-377bf3746611",
             "modelName": "GMEvent",
             "mvc": "1.0",

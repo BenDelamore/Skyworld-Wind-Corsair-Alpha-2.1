@@ -52,7 +52,7 @@ if mode = "shoot"
 	
 		if bullet_timer < 1
 	{
-		bullet_timer += 0.05
+		bullet_timer += 0.025
 	}
 	
 	if bullet_timer >= 1
@@ -105,21 +105,6 @@ if mode = "shoot"
 		mode = "chase"
 	}
 }
-#endregion
-
-#region //image direction
-image_angle = 0 
-
-/*
-if direction = clamp(direction,90,270)
-{
-	image_xscale = 1
-}
-else if speed > 0
-{
-	image_xscale = -1
-}
-*/
 #endregion
 
 #region //knockback mode
