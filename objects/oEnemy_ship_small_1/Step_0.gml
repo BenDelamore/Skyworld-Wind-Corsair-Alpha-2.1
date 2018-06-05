@@ -2,6 +2,10 @@
 
 if (global.pause) {exit;}
 
+script_execute(states_array[state]);
+
+#region //Modes stuff
+/*
 #region //Path Following
 if mode = "patrol"
 {
@@ -32,6 +36,9 @@ if mode = "idle"
 	
 	//return to stationary
 	if spd > 0 {spd = lerp(spd,0,0.1)}
+	
+	x += lengthdir_x(spd,dir)
+	y += lengthdir_y(spd,dir)
 	
 	move_wander = 0
 	if (counter >= room_speed * 3)
@@ -190,7 +197,7 @@ if mode = "shoot"
 	{
 		bullet_timer += 0.025
 	}
-	*/
+	
 	#endregion
 	
 	if !collision_circle(x,y,600,oPlayer,0,0)
@@ -198,6 +205,7 @@ if mode = "shoot"
 		mode = "chase"
 	}
 }
+
 #endregion
 
 spd = clamp(spd,0,7)
@@ -224,8 +232,11 @@ if mode = "collision avoidance"
 	}
 }
 */
+#endregion
+
 #region //image direction
 image_angle = 0 
+//image_angle = direction
 
 /*
 if speed != 0
@@ -238,14 +249,14 @@ if direction = clamp(direction,90,270)
 {
 	image_xscale = 1
 }
-else if direction = clamp(direction,-90,90)
+else if direction = clamp(direction,0,90)
 {
 	image_xscale = -1
 }
-else
-{
-	image_xscale = 1
-}
+//else
+//{
+//	image_xscale = 1
+//}
 #endregion
 
 #region //knockback mode
@@ -268,10 +279,10 @@ y = max(y, global.edge);
 y = min(y, room_height-global.edge);
 */
 
-var edgespeed1 = (distance_to_point(global.edge,y))/100
-var edgespeed2 = (distance_to_point(x,global.edge))/100
-var edgespeed3 = (distance_to_point(room_width - global.edge,y))/100
-var edgespeed4 = (distance_to_point(x,room_height - global.edge))/100
+var edgespeed1 = (distance_to_point(global.edge,y))/1000
+var edgespeed2 = (distance_to_point(x,global.edge))/1000
+var edgespeed3 = (distance_to_point(room_width - global.edge,y))/1000
+var edgespeed4 = (distance_to_point(x,room_height - global.edge))/1000
 
 if x < global.edge
 	{
@@ -299,6 +310,15 @@ if y > room_height - global.edge
 		y += lengthdir_y(spd,point_direction(x,y,x,(room_height-global.edge)))
 	}
 
+#endregion
+
+#region //health drop
+if oPlayer.hp < 50
+{
+	spawn_health = choose(true,false)
+}
+
+if oPlayer.hp < 30 {spawn_health = true}
 #endregion
 
 #region //death

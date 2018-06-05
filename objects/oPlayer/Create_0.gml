@@ -10,12 +10,20 @@ maxvspd = global.maxvspd;
 
 spd = sqrt(hspd*hspd + vspd*vspd)
 
+//For engine sound...
+gear = 0
+
+//for smoke effect...
+smoke = false
+
 //Miscellaneous Variables
 hp = global.player_health
 
 death_timer = 0
 
 flame_frame = 0
+
+dead = false
 
 //state = player_states.move
 
@@ -24,6 +32,8 @@ flame_frame = 0
 
 //sprites_array[0] = sPlayer
 
+x = global.spawnX
+y = global.spawnY
 
 //Creating Weapon hardpoints
 if global.Weapon_Ballistae = true {instance_create_layer(x+64,y+2,"player_layer",oBallistae1)}

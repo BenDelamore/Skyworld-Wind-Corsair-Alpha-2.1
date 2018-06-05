@@ -4,6 +4,10 @@ switch (move_position)
 	case 0: //--------Start
 	{
 		//room_goto_next()
+		//ADD SAVE GAME OVERWRITE HERE
+		global.room_number = room_level0
+		global.spawnX = 300
+		global.spawnY = room_height/2
 #region All other code attempts
 		#region First attempt ----- USING THIS ONE CURRENTLY
 		//Add Save game OVERWRITE code
@@ -11,7 +15,7 @@ switch (move_position)
 			{
 				if (!do_transition)
 				{
-					spawn_room = room_level1
+					spawn_room = room_level0
 					do_transition = true
 				}
 			}

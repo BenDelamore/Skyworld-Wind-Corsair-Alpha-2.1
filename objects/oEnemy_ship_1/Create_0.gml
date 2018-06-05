@@ -1,22 +1,22 @@
 #region //Old AI code
-/*
+
 //states
 state = states.idle
 
 states_array[states.idle] = scr_idle
 states_array[states.wander] = scr_wander
 states_array[states.alert] = scr_alert
-states_array[states.attack] = scr_attack_2
-states_array[states.collision] = scr_enemy_collisiondetection
+states_array[states.attack] = scr_attack
+states_array[states.path_following] = scr_path
 
 //movement
 counter = 0
 
 spd = 0.5
 
-my_dir = irandom_range(0,360)
-moveX = lengthdir_x(spd, my_dir)
-moveY = lengthdir_y(spd, my_dir)
+dir = irandom_range(0,360)
+moveX = lengthdir_x(spd, dir)
+moveY = lengthdir_y(spd, dir)
 
 //health
 hp = 100
@@ -24,7 +24,7 @@ hp = 100
 Enemy_firingdelay = 10
 
 timer = 4
-*/
+
 
 //other enemy AI code
 
@@ -55,6 +55,9 @@ maxspd = 2 + random(2)
 
 //Bullet Timer
 bullet_timer = 0
+
+//Image scale timer
+image_dir_timer = 0
 
 //Enemy Hit visual feedback
 knockback_timer = 1

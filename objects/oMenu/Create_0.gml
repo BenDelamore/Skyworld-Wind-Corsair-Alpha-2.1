@@ -7,8 +7,11 @@ menu [2] = "UPGRADES"
 menu [3] = "LEVEL SELECT"
 menu [4] = "QUIT"
 
-space = 64
-move_position = 0
+space = 64;
+move_position = 0;
+
+push = 0;
+push_timer = 0;
 
 //LOAD GAME???
 

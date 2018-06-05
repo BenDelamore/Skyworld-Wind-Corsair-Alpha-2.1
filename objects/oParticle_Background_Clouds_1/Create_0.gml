@@ -23,7 +23,7 @@ camera = camera_get_active()
 	x1 = -500
 	x2 = -500
 	y1 = 0
-	y2 = room_height - 350
+	y2 = room_height 
 
 clouds_emitter = part_emitter_create(clouds)
 	part_emitter_region(clouds,clouds_emitter,x1,x2,y1,y2,ps_shape_rectangle,ps_distr_linear)

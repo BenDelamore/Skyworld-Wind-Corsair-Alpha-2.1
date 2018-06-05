@@ -1,1 +1,3 @@
-target_room = room_level2
+target_room = room_level3
+
+level_complete = room_level3

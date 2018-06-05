@@ -32,6 +32,28 @@
     }
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
     "targets": 29263750006690030
+}←7fa50043-cea6-4cd0-9521-a8ba8c6ea9f0|{
+    "audioGroups": {
+        "Additions": [
+            {
+                "Key": 1,
+                "Value": {
+                    "id": "b064dffb-b1aa-498f-ad5f-6fc8f38227c7",
+                    "modelName": "GMAudioGroup",
+                    "mvc": "1.0",
+                    "groupName": "Music",
+                    "targets": 29263750006690030
+                }
+            }
+        ],
+        "Checksum": "濑Ⱥ朦씁ᬄ縈",
+        "Deletions": [
+            
+        ],
+        "Ordering": [
+            
+        ]
+    }
 }←7b2c4976-1e09-44e5-8256-c527145e03bb|{
     "targets": 29263750006690030
 }

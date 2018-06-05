@@ -11,7 +11,6 @@
         "7a1ae669-aab3-43f8-803e-c8b9320d602e",
         "55b38385-5640-4f64-883c-58214e10f4dc",
         "b3593b11-2b34-4f7d-8da9-f3d19ff7df25",
-        "6fb26525-4c92-4ea5-84fd-9b0baaa5bb62",
         "a6f369b0-1631-4e5e-8e4c-89c185fbf04b",
         "116c9cb2-d8bf-4d84-a1de-174490a7a373",
         "bffeed19-08d5-473c-b2e2-27e71ce930a9",
@@ -27,6 +26,7 @@
         "a8db923d-bf8a-445f-895c-45883f13f669",
         "5a459558-9969-4adc-8525-a8313c47095b",
         "04f9b126-df13-4d22-a79d-2c75a88cac77",
+<<<<<<< HEAD
         "9e23f5af-841e-4a6d-a387-2deaa292fcc5",
         "090580ee-c295-49be-af17-da8a7d284068",
         "231c1585-7e03-4a10-a2ab-608a5fde70d3",
@@ -36,6 +36,10 @@
         "f0c2e17a-b66b-40dc-aa97-64ef6a4980f3",
         "fc63fe85-16eb-46dc-bdbb-3ef9deeca663",
         "fd198222-6bf8-453e-a981-4e225ba97727"
+=======
+        "090580ee-c295-49be-af17-da8a7d284068",
+        "9e23f5af-841e-4a6d-a387-2deaa292fcc5"
+>>>>>>> Alpha_2.2_-_New-Art-Branch
     ],
     "filterType": "GMObject",
     "folderName": "objects",

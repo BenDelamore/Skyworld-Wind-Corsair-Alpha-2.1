@@ -1,6 +1,6 @@
 /// @description Special Key Press actions
 
-/*
+
 if keyboard_check_released(vk_escape)
 {
 	do_transition = true
@@ -12,7 +12,7 @@ if keyboard_check_released(vk_backspace)
 {
 	other_transition = true
 }
-*/
+
 
 #region //Quit --- escape
 if keyboard_check_released(vk_delete)
@@ -22,7 +22,7 @@ if keyboard_check_released(vk_delete)
 #endregion
 
 
-//Fullscreen
+#region //Fullscreen
 if keyboard_check_pressed(ord("F"))
 {
 	if window_get_fullscreen() 
@@ -34,3 +34,4 @@ if keyboard_check_pressed(ord("F"))
 		window_set_fullscreen(true);
 	}
 }
+#endregion

@@ -4,4 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-grav = 0.6
+rotation = 0;
+
+grav = 0.6;

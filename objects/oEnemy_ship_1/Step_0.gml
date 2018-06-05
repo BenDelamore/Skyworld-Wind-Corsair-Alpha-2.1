@@ -2,6 +2,12 @@
 
 if (global.pause) {exit;}
 
+script_execute(states_array[state]);
+
+if Enemy_firingdelay > 0 {Enemy_firingdelay -= 1}
+
+#region //Modes Stuff
+/*
 #region //Path Following
 if mode = "patrol"
 {
@@ -133,7 +139,7 @@ if mode = "shoot"
 		bullet = instance_create_layer(x,y,"projectiles_layer",oEnemy_projectile)
 		bullet.direction = dir
 		bullet.speed = 15
-*/
+////////////
 		with (instance_create_layer(x - 15, y - 10, "projectiles_layer", oEnemy_projectile))
 		{
 			speed = 12;
@@ -152,6 +158,8 @@ if mode = "shoot"
 		mode = "chase"
 	}
 }
+#endregion
+*/
 #endregion
 
 #region //trying to implement collision avoidance
@@ -180,7 +188,7 @@ if collision_circle(x,y,100,oEnemy,false,true)
 #endregion
 
 #region //image direction
-image_angle = 0 
+//image_angle = 0 
 
 /*
 if speed != 0
@@ -188,14 +196,16 @@ if speed != 0
 	image_xscale = sign(speed)
 }
 */
-
-if direction = clamp(direction,90,270)
+image_dir_timer -= 1
+if direction = clamp(direction,90,270) && image_dir_timer <= 0
 {
 	image_xscale = 1
+	image_dir_timer = 60
 }
-else if direction = clamp(direction,-90,90)
+else if direction = clamp(direction,-90,90) && image_dir_timer <= 0
 {
 	image_xscale = -1
+	image_dir_timer = 60
 }
 else
 {
@@ -223,10 +233,10 @@ y = max(y, global.edge);
 y = min(y, room_height-global.edge);
 */
 
-var edgespeed1 = (distance_to_point(global.edge,y))/100
-var edgespeed2 = (distance_to_point(x,global.edge))/100
-var edgespeed3 = (distance_to_point(room_width - global.edge,y))/100
-var edgespeed4 = (distance_to_point(x,room_height - global.edge))/100
+var edgespeed1 = (distance_to_point(global.edge,y))/1000
+var edgespeed2 = (distance_to_point(x,global.edge))/1000
+var edgespeed3 = (distance_to_point(room_width - global.edge,y))/1000
+var edgespeed4 = (distance_to_point(x,room_height - global.edge))/1000
 
 if x < global.edge
 	{

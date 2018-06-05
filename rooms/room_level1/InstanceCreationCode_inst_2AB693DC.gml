@@ -1,1 +1,1 @@
-set_path = path3
+set_path = enemy_path_4
