@@ -4,6 +4,8 @@ switch (move_position)
 	case 0: 
 	{
 		global.room_number = room_level0
+		global.spawnX = 0
+		global.spawnY = 1300
 		//room_goto(room_level1);
 		with (oController)
 			{
@@ -18,6 +20,8 @@ switch (move_position)
 	case 1:
 	{
 		global.room_number = room_level1
+		global.spawnX = 0
+		global.spawnY = 1300
 		//room_goto(room_level2)
 		with (oController)
 			{
@@ -32,6 +36,8 @@ switch (move_position)
 	case 2:
 	{
 		global.room_number = room_level3
+		global.spawnX = 0
+		global.spawnY = 1000
 		//room_goto(room_level3)
 		with (oController)
 			{

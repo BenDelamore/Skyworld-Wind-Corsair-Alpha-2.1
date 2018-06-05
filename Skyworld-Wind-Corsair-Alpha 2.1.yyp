@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "026ec9d0-372d-4fc0-945a-8e0787be103d",
+            "Value": {
+                "id": "6eef894f-57a4-4a0c-a145-8a421288d01b",
+                "resourcePath": "rooms\\room_level2\\room_level2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "03948660-618e-4b95-bc18-3ce13b6dbeaf",
             "Value": {
                 "id": "d1a7e7a7-7309-4d4a-aa67-6023f4aacecc",
@@ -188,6 +196,14 @@
                 "id": "02c6eb67-5767-4777-8822-8344441acb6b",
                 "resourcePath": "objects\\oMenu\\oMenu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1be8a73a-3e88-4678-ae77-aa834954ccff",
+            "Value": {
+                "id": "68cca31b-fb85-4393-9834-ee418e205bd5",
+                "resourcePath": "views\\1be8a73a-3e88-4678-ae77-aa834954ccff.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -559,14 +575,6 @@
             }
         },
         {
-            "Key": "4605339c-113a-4dfd-a25f-e490e1ea2dab",
-            "Value": {
-                "id": "9fc9fa98-1704-4208-b224-d8ac75f7302b",
-                "resourcePath": "sprites\\sEnemyShipOld\\sEnemyShipOld.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "48c1df02-cc38-4e7e-a69c-e4930dd5dff7",
             "Value": {
                 "id": "b57d9714-4bca-475e-bc06-0f1e859ee4a5",
@@ -602,7 +610,7 @@
             "Key": "4ea0e680-59f3-4030-8be7-b9fe734881ad",
             "Value": {
                 "id": "fe397c11-ea3a-4e3f-a800-88e87810968d",
-                "resourcePath": "sprites\\sprite16\\sprite16.yy",
+                "resourcePath": "sprites\\sChest\\sChest.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -799,6 +807,14 @@
             }
         },
         {
+            "Key": "67ac70d3-0efc-4c67-b88e-6e4227b22e70",
+            "Value": {
+                "id": "c3cdad50-4e0c-4e95-a318-61c94b1b83dc",
+                "resourcePath": "sprites\\sSmall_island_2\\sSmall_island_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67b91106-ef9b-4547-8c50-16af6c109972",
             "Value": {
                 "id": "df6c5267-b58b-4311-b2e6-e424b42c5176",
@@ -819,6 +835,14 @@
             "Value": {
                 "id": "e66e148d-5dd0-4b1c-a429-d09c20afe6a6",
                 "resourcePath": "sprites\\sWinText\\sWinText.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6b0a3601-f05a-4e75-b6dc-6f220d8a79ee",
+            "Value": {
+                "id": "f5996ce6-05c8-40b8-a538-7822ff2236ef",
+                "resourcePath": "sprites\\sIsland_Mod_Base_Snow_12\\sIsland_Mod_Base_Snow_12.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -955,6 +979,14 @@
             "Value": {
                 "id": "2f69187e-ebe7-4828-b96d-0f7016bd3fa4",
                 "resourcePath": "sprites\\sBackground_sky_1\\sBackground_sky_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7c8c7e6d-64cb-4156-b26a-9c9dfd723e53",
+            "Value": {
+                "id": "357bacb7-1922-4022-99e2-a09a61c3508e",
+                "resourcePath": "sprites\\sSmall_island_2_snow\\sSmall_island_2_snow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1159,10 +1191,10 @@
             }
         },
         {
-            "Key": "920d38cd-1bf4-4b8b-9f29-3bb3c749ca8c",
+            "Key": "935466af-f1dd-4967-9c6a-1d9f73bf69c8",
             "Value": {
-                "id": "b2324296-fbad-4f43-8397-1db130f0555d",
-                "resourcePath": "sprites\\sSpark\\sSpark.yy",
+                "id": "62e603e9-8577-42ef-9176-1ab1ba13aea8",
+                "resourcePath": "sprites\\sIsland_Mod_Base_Snow_11\\sIsland_Mod_Base_Snow_11.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1204,14 +1236,6 @@
                 "id": "de25e22e-55f4-4767-9727-cd5a85fd01e6",
                 "resourcePath": "objects\\o_island1\\o_island1.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "99ea1baa-e968-4e9a-bb65-d347eb6d66b9",
-            "Value": {
-                "id": "215a724e-f965-4ed6-969a-60a98d0cadfd",
-                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1276,6 +1300,14 @@
                 "id": "fa726423-1f8a-4b24-a582-c609bc565c05",
                 "resourcePath": "objects\\oCatapult1\\oCatapult1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a0fe3191-f5a8-408b-ad08-606cac43a7c3",
+            "Value": {
+                "id": "b45ff284-67e6-4f72-94cf-53a825d66894",
+                "resourcePath": "sprites\\sIsnd_Mod_Base_Sno_1\\sIsnd_Mod_Base_Sno_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1747,6 +1779,14 @@
             "Value": {
                 "id": "2e575490-3851-4654-9c27-233861c08f3f",
                 "resourcePath": "sprites\\sMenu_image_1\\sMenu_image_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dfe3dece-0535-4ed0-ad02-3ef51f4786ed",
+            "Value": {
+                "id": "06f9a51e-1f82-4d2e-9c70-d6b292089efc",
+                "resourcePath": "sprites\\sSmall_island_1_Snow\\sSmall_island_1_Snow.yy",
                 "resourceType": "GMSprite"
             }
         },

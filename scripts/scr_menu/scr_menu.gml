@@ -7,7 +7,7 @@ switch (move_position)
 		//ADD SAVE GAME OVERWRITE HERE
 		global.room_number = room_level0
 		global.spawnX = 300
-		global.spawnY = room_height/2
+		global.spawnY = 1300
 #region All other code attempts
 		#region First attempt ----- USING THIS ONE CURRENTLY
 		//Add Save game OVERWRITE code

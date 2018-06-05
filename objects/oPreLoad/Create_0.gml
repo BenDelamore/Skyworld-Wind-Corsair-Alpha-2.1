@@ -23,10 +23,10 @@ global.weapon_1 = global.Weapon_Ballistae;
 global.weapon_2 = false;
 
 //Current level
-global.room_number = room_level1;
+global.room_number = room_level0;
 
 //Room edge
-global.edge = 300;
+global.edge = 400;
 
 //Pause
 global.pause = false;

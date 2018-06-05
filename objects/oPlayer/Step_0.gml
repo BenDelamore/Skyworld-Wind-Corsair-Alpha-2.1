@@ -214,7 +214,9 @@ if (inst != noone && keyboard_check_released(vk_enter))
 		if (!do_transition)
 		{
 			spawn_room = inst.target_room
-			global.room_number = inst.level_complete
+			global.room_number = inst.target_room
+			global.spawnX = inst.spawnX
+			global.spawnY = inst.spawnY
 			//spawnX = inst.spawnX
 			//spawnY = inst.spawnY
 			do_transition = true

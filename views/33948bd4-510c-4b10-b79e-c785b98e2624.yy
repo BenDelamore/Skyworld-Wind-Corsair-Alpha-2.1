@@ -9,7 +9,10 @@
         "af7a6de5-4709-498a-b396-afa1869ebc5f",
         "8ca40d53-8dee-4cc9-9033-23598f4a438b",
         "5f93ce51-08d3-481e-b8ce-5b945bcb9416",
-        "75c28c25-6ad1-445e-bb1e-f882c7f0a5aa"
+        "75c28c25-6ad1-445e-bb1e-f882c7f0a5aa",
+        "a0fe3191-f5a8-408b-ad08-606cac43a7c3",
+        "6b0a3601-f05a-4e75-b6dc-6f220d8a79ee",
+        "935466af-f1dd-4967-9c6a-1d9f73bf69c8"
     ],
     "filterType": "GMSprite",
     "folderName": "Modular_Islands",

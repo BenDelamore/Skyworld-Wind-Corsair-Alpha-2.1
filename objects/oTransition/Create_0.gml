@@ -8,6 +8,6 @@ alpha = 0
 text = "Press 'Enter' to continue"
 
 spawnX = 0
-spawnY = room_width/2
+spawnY = 1300
 
 level_complete = room_level0
