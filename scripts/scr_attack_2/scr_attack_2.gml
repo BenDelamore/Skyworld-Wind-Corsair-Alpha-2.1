@@ -46,7 +46,7 @@
 #endregion
 
 //transition triggers
-if (!collision_circle(x,y, 600, oPlayer, false, false)) && charge = 0
+if (!collision_circle(x,y, 1000, oPlayer, false, false)) && charge = 0
 {
 	state = states.alert; 
 }

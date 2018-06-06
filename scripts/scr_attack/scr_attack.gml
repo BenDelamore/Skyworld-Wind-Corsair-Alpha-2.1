@@ -43,7 +43,7 @@ if Enemy_firingdelay <= 0
 
 
 //transition triggers
-if (!collision_circle(x,y, 600, oPlayer, false, false))
+if (!collision_circle(x,y, 1000, oPlayer, false, false))
 {
 	state = states.alert; 
 }

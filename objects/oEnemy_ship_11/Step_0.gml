@@ -163,26 +163,11 @@ if mode = "shoot"
 #endregion
 
 #region //image direction
-//image_angle = 0 
-
-/*
-if speed != 0
-{
-	image_xscale = sign(speed)
-}
-*/
-image_dir_timer -= 1
-if direction = clamp(direction,90,270) && image_dir_timer <= 0
-{
-	image_xscale = 1
-	image_dir_timer = 60
-}
-else if direction = clamp(direction,-90,90) && image_dir_timer <= 0
+if x < oPlayer.x+20
 {
 	image_xscale = -1
-	image_dir_timer = 60
 }
-else
+else if x > oPlayer.x-20
 {
 	image_xscale = 1
 }

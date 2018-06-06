@@ -1,4 +1,6 @@
-target_room = room_level3
+target_room = room_Boss_level
+
+next_level = room_Boss_level
 
 level_complete = room_level1
 

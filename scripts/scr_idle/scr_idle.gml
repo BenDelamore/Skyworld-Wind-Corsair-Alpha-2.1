@@ -14,7 +14,7 @@ if(counter >= room_speed * 3)
 		}
 	}
 
-if point_distance(x,y,oPlayer.x,oPlayer.y) < 1000
+if point_distance(x,y,oPlayer.x,oPlayer.y) <  1650 
 	{
 		if !collision_line(x,y,oPlayer.x,oPlayer.y,oSolid,true,false)
 		{

@@ -15,14 +15,14 @@ global.spawnY = room_height/2
 
 //Weapons 1
 global.Weapon_Ballistae = true;
-global.Weapon_Catapult = false;
+global.Weapon_Catapult = true;
 global.Weapon_Ballistae2 = false;
 
 //Weapons 2 for upgrade system
 global.weapon_1 = global.Weapon_Ballistae;
 global.weapon_2 = false;
 
-global.catapult_ammo = oProjectile_Boulder
+global.catapult_ammo = oProjectile_explosive
 
 //Current level
 global.room_number = room_level0;

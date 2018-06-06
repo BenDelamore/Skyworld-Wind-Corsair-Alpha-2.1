@@ -56,7 +56,7 @@ switch (move_position)
 			{
 				if (!do_transition)
 				{
-					spawn_room = room_testing
+					spawn_room = room_Boss_level
 					do_transition = true
 				}
 			}

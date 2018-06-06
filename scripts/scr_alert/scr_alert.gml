@@ -1,6 +1,6 @@
 
 //transition triggers
-if !point_distance(x,y,oPlayer.x,oPlayer.y) < 1000 
+if !point_distance(x,y,oPlayer.x,oPlayer.y) < 1650 
 {
 	state = states.wander; 
 }
@@ -12,7 +12,7 @@ if collision_line(x,y,oPlayer.x,oPlayer.y,oSolid,true,false)
 
 
 
-if point_distance(x,y,oPlayer.x,oPlayer.y) < 500
+if point_distance(x,y,oPlayer.x,oPlayer.y) < 1000
 {
 	state = states.attack; 
 }

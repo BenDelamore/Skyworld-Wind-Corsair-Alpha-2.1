@@ -7,7 +7,7 @@ menu [2] = "UPGRADES"
 menu [3] = "LEVEL SELECT"
 menu [4] = "QUIT"
 
-space = 64;
+space = 128;
 move_position = 0;
 
 push = 0;

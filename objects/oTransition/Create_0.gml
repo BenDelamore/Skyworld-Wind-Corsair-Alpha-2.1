@@ -11,3 +11,5 @@ spawnX = 0
 spawnY = 1300
 
 level_complete = room_level0
+
+next_level = 0;
