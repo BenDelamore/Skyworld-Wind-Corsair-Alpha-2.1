@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-grav = 0.5
+grav = 0.1

@@ -5,7 +5,7 @@ dir = direction
 
 gravity_direction = 270
 
-grav = 0.035
+grav = 0.03
 
 owner = instance_nearest(x,y,oParent_SaveMe)
 

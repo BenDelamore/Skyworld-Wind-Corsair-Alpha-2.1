@@ -235,28 +235,14 @@ if mode = "collision avoidance"
 #endregion
 
 #region //image direction
-image_angle = 0 
-//image_angle = direction
-
-/*
-if speed != 0
-{
-	image_xscale = sign(speed)
-}
-*/
-
-if direction = clamp(direction,90,270)
-{
-	image_xscale = 1
-}
-else if direction = clamp(direction,0,90)
+if x < oPlayer.x+20
 {
 	image_xscale = -1
 }
-//else
-//{
-//	image_xscale = 1
-//}
+else if x > oPlayer.x-20
+{
+	image_xscale = 1
+}
 #endregion
 
 #region //knockback mode
@@ -284,13 +270,13 @@ var edgespeed2 = (distance_to_point(x,global.edge))/1000
 var edgespeed3 = (distance_to_point(room_width - global.edge,y))/1000
 var edgespeed4 = (distance_to_point(x,room_height - global.edge))/1000
 
-if x < global.edge
+if x < 25
 	{
 		spd += max(0,(edgespeed1/5))
 		x += lengthdir_x(spd,point_direction(x,y,global.edge,y))
 	}
 	
-if x > room_width - global.edge
+if x > room_width - 25
 	{
 		spd += max(0,(edgespeed3/5))
 		x += lengthdir_x(spd,point_direction(x,y,(room_width-global.edge),y))
@@ -298,13 +284,13 @@ if x > room_width - global.edge
 
 //abs(sign(vspd))+
 
-if y < global.edge
+if y < 25
 	{
-		spd += max(0,(edgespeed2/5))
+		spd += (max(0,(edgespeed2/5)))
 		y += lengthdir_y(spd,point_direction(x,y,x,global.edge))
 	}
 
-if y > room_height - global.edge
+if y > room_height - 25
 	{
 		spd += max(0,(edgespeed4/5))
 		y += lengthdir_y(spd,point_direction(x,y,x,(room_height-global.edge)))

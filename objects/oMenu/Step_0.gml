@@ -24,9 +24,9 @@ if keyboard_check_released(vk_enter) && push_timer <= 0
 
 if push = 1	
 {
+	if !audio_is_playing(sfx_click)
 	audio_play_sound(sfx_click,50,false)
-	audio_sound_gain(sfx_click,1.5,0)
+	audio_sound_gain(sfx_click,1,0)
 	scr_menu()
 }
-
 

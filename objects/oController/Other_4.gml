@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+/*
 if room != room_menu or room != room_upgrade
 {
 	if (file_exists("Save.sav")) file_delete("Save.sav");

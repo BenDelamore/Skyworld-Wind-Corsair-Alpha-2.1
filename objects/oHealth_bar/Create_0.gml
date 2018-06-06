@@ -1,5 +1,5 @@
 /// @description 
-global.max_hp=global.player_health*4;
+global.max_hp=global.player_health;
 global.hp=oPlayer.hp;
 
 //toggle hsv_effect

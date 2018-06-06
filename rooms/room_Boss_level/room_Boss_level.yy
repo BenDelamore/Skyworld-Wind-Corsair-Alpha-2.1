@@ -204,12 +204,10 @@
             "visible": true
         },
         {
-            "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Assets_1",
-            "id": "abf2894c-7378-4ddd-84c1-c8d55844f164",
-            "assets": [
-
-            ],
+            "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Path_1",
+            "id": "5967e724-0b87-4b62-9e42-96a9e2e47be6",
+            "colour": { "Value": 4278190335 },
             "depth": 600,
             "grid_x": 32,
             "grid_y": 32,
@@ -224,7 +222,8 @@
             ],
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
-            "modelName": "GMRAssetLayer",
+            "modelName": "GMRPathLayer",
+            "pathId": "505d4942-9688-40ea-bf2b-be4aa04c1c04",
             "mvc": "1.0",
             "userdefined_depth": false,
             "visible": true

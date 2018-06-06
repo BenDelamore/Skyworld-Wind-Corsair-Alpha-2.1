@@ -44,6 +44,10 @@ switch (move_position)
 			{
 				global.catapult_ammo = oProjectile_explosive
 			}
+			else
+			{
+				global.catapult_ammo = oProjectile_Boulder
+			}
 			global.Weapon_Catapult = true;
 			global.playerpoints -= 30
 		}

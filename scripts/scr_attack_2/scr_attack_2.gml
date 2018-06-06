@@ -10,7 +10,7 @@
 	}
 	
 //Charge!
-	if charge_timer >= 60
+	if charge_timer >= 45
 	{
 		charge = 1
 		//charge_timer = 0
@@ -24,7 +24,7 @@
 	}
 
 //Charging for too long - reset
-	if charge_timer >= 180
+	if charge_timer >= 120
 	{
 		charge = 0	
 		charge_timer = 0
@@ -33,10 +33,10 @@
 //Decellerating
 	if charge = 0
 	{
-	//	if spd >= 0
-	//	{
-			spd -= lerp(spd,0,0.1)
-	//	}
+		if spd >= 0
+		{
+			spd = lerp(spd,0,0.1)
+		}
 	}
 
 //Apply Movement
@@ -48,5 +48,8 @@
 //transition triggers
 if (!collision_circle(x,y, 1000, oPlayer, false, false)) && charge = 0
 {
-	state = states.alert; 
+	if spd = 0
+	{
+		state = states.alert; 
+	}
 }

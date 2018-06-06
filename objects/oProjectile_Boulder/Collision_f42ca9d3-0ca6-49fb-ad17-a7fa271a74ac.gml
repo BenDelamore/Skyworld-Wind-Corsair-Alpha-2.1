@@ -3,7 +3,7 @@
 
 with (other)
 {
-	hp -= (15 + oProjectile_2.speed*10)
+	hp -= (15 + oProjectile_Boulder.speed*10)
 	flash = 3
 	
 	mode = "knockback"

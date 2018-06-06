@@ -12,5 +12,6 @@ button_action = 1
 
 move_position = 1;
 
+/*
 button_array [0] = scr_button_false
 button_array [1] = scr_button_Menu

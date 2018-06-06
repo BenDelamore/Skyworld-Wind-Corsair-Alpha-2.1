@@ -3,7 +3,7 @@
 
 //if !audio_is_playing(sfx_coin_pickup)
 //{
-	audio_play_sound(sfx_coin_pickup,90,false)
+	audio_play_sound(sfx_coin_pickup_2,90,false)
 //}
 /*
 else

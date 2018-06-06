@@ -20,7 +20,25 @@ if position_meeting(mouse_x,mouse_y,self)
 	{
 		button_pressed = true
 		button_timer = 60
-		script_execute(button_array[button_action])
+		
+		with (oController)
+			{
+				if (!do_transition)
+				{
+					spawn_room = room_level_select
+					do_transition = true
+				}
+			}
+		
+		if instance_exists(oMenu)
+			{
+				with oMenu
+				{
+					move_position = 3
+					push = 1
+				}
+			}
+		//script_execute(button_array[button_action])
 	}
 }
 
@@ -38,5 +56,7 @@ if button_timer = 0
 
 if button_pressed = true
 {
-	//do something????
+	if !audio_is_playing(sfx_click)
+	audio_play_sound(sfx_click,50,false)
+	audio_sound_gain(sfx_click,1,0)
 }

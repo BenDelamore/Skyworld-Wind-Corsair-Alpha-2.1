@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var _x = oController.guiWidth - 60
-var _y = 50
+var _x = oController.guiWidth - oController.guiWidth/19
+var _y = oController.guiHeight - oController.guiHeight/10
 
 draw_sprite(sCoin_Counter,image_index,_x,_y)
 

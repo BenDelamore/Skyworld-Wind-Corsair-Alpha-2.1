@@ -18,6 +18,7 @@ smoke = false
 
 //Miscellaneous Variables
 hp = global.player_health
+global.max_hp = global.player_health
 
 death_timer = 0
 

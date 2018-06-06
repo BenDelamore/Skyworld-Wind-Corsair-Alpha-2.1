@@ -6,7 +6,7 @@ event_inherited();
 
 if charge = true
 {
-	hp -= spd + 5
+	hp -= spd + 1
 	charge = false
 	charge_timer = 0
 }
