@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 //Player variables
+global.max_hp = 100;
+global.hp = 100;
 global.player_health = 100;
 
 global.playerpoints = 0;

@@ -127,8 +127,6 @@ else    {
    draw_text(32, 32, "Fullscreen is OFF");
    }
 
-
-
 #region//Pause Menu stuff
 if (global.pause)
 {

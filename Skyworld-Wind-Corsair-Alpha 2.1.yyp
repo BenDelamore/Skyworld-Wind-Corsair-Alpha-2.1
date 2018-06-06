@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00bf6066-b273-49ec-8875-b04126e7ae0b",
+            "Value": {
+                "id": "5e67b8cc-0b4f-458b-b88d-8e231b1ddb48",
+                "resourcePath": "sprites\\sCoin_Counter\\sCoin_Counter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "021e167f-a7a8-4906-9ad8-5ff11144931e",
             "Value": {
                 "id": "2d479d5e-2211-4a5a-ae37-1e122f864ae3",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "2b0c3c1a-2196-4521-846d-7abf38015c36",
+            "Value": {
+                "id": "049b14be-c07e-4652-87c0-ff87552ed9f2",
+                "resourcePath": "objects\\oCoin_Counter\\oCoin_Counter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c7d31e0-4773-45e9-96a3-05efe9c161af",
             "Value": {
                 "id": "b90fd315-0e7e-412c-bf81-2c20cfceb7f5",
@@ -511,6 +527,14 @@
             }
         },
         {
+            "Key": "4277be2c-86be-444b-bab1-23124afbce0a",
+            "Value": {
+                "id": "a22f5b8e-2671-4383-be16-c338341391db",
+                "resourcePath": "sprites\\spr_health_bar_fill\\spr_health_bar_fill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42a9c8e2-1409-4ad8-8ecf-39428a544d2b",
             "Value": {
                 "id": "e696ff08-8412-438e-af59-efe496f169f9",
@@ -596,6 +620,14 @@
                 "id": "5db48ef9-7710-4b9f-9436-9c10616a6def",
                 "resourcePath": "objects\\oSolid\\oSolid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "515479f0-d21a-4f00-abca-95c21429fe37",
+            "Value": {
+                "id": "40a7293b-aa6a-49c5-acd2-b585b6e5609f",
+                "resourcePath": "sprites\\spr_health_bar_center\\spr_health_bar_center.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -727,6 +759,14 @@
             }
         },
         {
+            "Key": "62222ccf-3100-4382-9aa7-d0c88c34d5a2",
+            "Value": {
+                "id": "c15dd07a-1ee0-4b56-b42a-bec8dfaf3c2b",
+                "resourcePath": "objects\\oHealth_bar\\oHealth_bar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6240e057-a797-4c77-8360-3c88c4dd8fb5",
             "Value": {
                 "id": "54251be4-69a7-41e7-8cf0-9361f0678ed4",
@@ -763,6 +803,14 @@
             "Value": {
                 "id": "7e6fc7e0-87a6-4a2a-8f94-27c232550ba4",
                 "resourcePath": "sprites\\sTree_clump_2\\sTree_clump_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "64f83dd0-3d42-4b0c-85cd-4c87630005e1",
+            "Value": {
+                "id": "7895dbdb-bb9e-4400-b753-14b37686c862",
+                "resourcePath": "sprites\\spr_health_bar_right\\spr_health_bar_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -884,6 +932,14 @@
                 "id": "5f25e838-e4b4-4252-b308-c2d6b56bd16c",
                 "resourcePath": "objects\\oMenu_Upgrade_Display\\oMenu_Upgrade_Display.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "71725712-ac02-44d2-a972-06cdfe99d5e1",
+            "Value": {
+                "id": "2c56da47-abca-4fa3-907f-13870c3d231e",
+                "resourcePath": "sprites\\spr_health_bar_left\\spr_health_bar_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1508,6 +1564,14 @@
                 "id": "ade50f67-8f94-4cc7-8b96-18e35f0986c0",
                 "resourcePath": "objects\\oWind\\oWind.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c9168a09-921c-415d-b9fb-171af47aad74",
+            "Value": {
+                "id": "b818a1d6-b593-4269-a55e-cbf0384a813c",
+                "resourcePath": "fonts\\fnt_Unzialish\\fnt_Unzialish.yy",
+                "resourceType": "GMFont"
             }
         },
         {

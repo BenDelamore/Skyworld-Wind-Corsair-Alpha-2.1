@@ -48,3 +48,5 @@ if global.Weapon_Catapult = true {instance_create_layer(x,y+2,"player_layer",oCa
 //Create Camera
 instance_create_layer(x,y,"player_layer",oCameraTarget)
 
+instance_create_layer(x,y,"projectiles_layer",oHealth_bar)
+instance_create_layer(x,y,"projectiles_layer",oCoin_Counter)
