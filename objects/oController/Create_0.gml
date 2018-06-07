@@ -53,3 +53,5 @@ offset = 0
 //global.room_number = layer_get_target_room()
 
 smoke = false
+
+instance_create_depth(mouse_x,mouse_y,-10,oMouse_cursor)

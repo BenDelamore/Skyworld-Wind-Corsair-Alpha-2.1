@@ -5,16 +5,6 @@
     "name": "oButton_Level_4",
     "eventList": [
         {
-            "id": "dd6df35c-4492-4b8d-b31d-c7f202e2c7d0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "621667a3-f2bd-4f71-b8ca-c289cbec1366"
-        },
-        {
             "id": "d95318d9-e569-4515-99db-596dcce99603",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -27,7 +17,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "231c1585-7e03-4a10-a2ab-608a5fde70d3",
+    "parentObjectId": "bc13e1b5-34ae-4f87-8d12-df56a686d14d",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -7,3 +7,5 @@ menu [4] = "MAIN MENU"
 
 space = 128
 move_position = 0
+
+click_sound = 0

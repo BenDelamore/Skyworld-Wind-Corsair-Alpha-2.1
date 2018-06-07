@@ -143,3 +143,5 @@ if (global.pause)
 	draw_set_color(c_black)
 }
 #endregion
+
+//draw_sprite_ext(sTarget_image,0,mouse_x,mouse_y,2,2,45,c_red,1);

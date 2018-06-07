@@ -20,7 +20,10 @@ if position_meeting(mouse_x,mouse_y,self)
 	{
 		button_pressed = true
 		button_timer = 60
+		click_sound = 1
 		
+		scr_menu()
+		/*
 		with (oController)
 			{
 				if (!do_transition)
@@ -39,6 +42,7 @@ if position_meeting(mouse_x,mouse_y,self)
 				}
 			}
 		//script_execute(button_array[button_action])
+		*/
 	}
 }
 
@@ -54,9 +58,10 @@ if button_timer = 0
 }
 #endregion
 
-if button_pressed = true
+if click_sound = 1
 {
 	if !audio_is_playing(sfx_click)
 	audio_play_sound(sfx_click,50,false)
 	audio_sound_gain(sfx_click,1,0)
+	click_sound = 0
 }

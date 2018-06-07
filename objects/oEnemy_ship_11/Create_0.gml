@@ -19,7 +19,7 @@ moveX = lengthdir_x(spd, dir)
 moveY = lengthdir_y(spd, dir)
 
 //health
-hp = 100
+hp = 200
 
 Enemy_firingdelay = 10
 

@@ -11,3 +11,5 @@ move_position = 2;
 
 button_array [0] = scr_button_false
 button_array [1] = scr_button_Menu
+
+click_sound = 0

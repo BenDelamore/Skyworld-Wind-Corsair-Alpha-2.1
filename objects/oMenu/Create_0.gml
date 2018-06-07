@@ -13,6 +13,8 @@ move_position = 0;
 push = 0;
 push_timer = 0;
 
+click_sound = 0
+
 //LOAD GAME???
 
 /*

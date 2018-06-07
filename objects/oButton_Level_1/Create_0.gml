@@ -15,3 +15,5 @@ move_position = 0;
 button_array [0] = scr_button_false
 button_array [1] = scr_button_Menu
 button_array [2] = scr_menu_upgrade
+
+click_sound = 0

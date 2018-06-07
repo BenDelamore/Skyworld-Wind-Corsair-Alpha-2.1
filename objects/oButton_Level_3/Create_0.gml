@@ -10,6 +10,8 @@ button_timer = 0;
 
 button_action = 2
 
+click_sound = 0
+
 move_position = 2;
 
 button_array [0] = scr_button_false

@@ -3,14 +3,14 @@ if (global.pause) {exit;}
 #region //run script movement
 //script_execute(states_array[state]);
 #endregion
-
+/*
 //Cheat Move code for collision bugs
 if keyboard_check(vk_control) && mouse_check_button(mb_left)
 {
 	x = mouse_x
 	y = mouse_y
 }
-
+*/
 #region //----------Movement Inputs
 #region //----------Keyboard Inputs
 key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));

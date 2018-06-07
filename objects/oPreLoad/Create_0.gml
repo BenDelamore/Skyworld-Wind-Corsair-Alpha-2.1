@@ -6,11 +6,12 @@ global.max_hp = 100;
 global.hp = 100;
 global.player_health = 200;
 
-global.playerpoints = 0;
+global.playerpoints = 50;
 global.coins_collected = 0;
 
-global.maxhspd = 4.5;
-global.maxvspd = 4.5;
+global.engine_level = 1;
+global.maxhspd = 4;
+global.maxvspd = 4;
 
 global.spawnX = 0
 global.spawnY = 1300

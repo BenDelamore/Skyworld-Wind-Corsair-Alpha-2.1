@@ -10,3 +10,5 @@ space = 64;
 move_position = 0;
 
 push = 0;
+
+click_sound = 0

@@ -5,16 +5,6 @@
     "name": "oEnemy_Projectile_2",
     "eventList": [
         {
-            "id": "1a90c152-49d7-47f5-a022-3ebcb7597d3e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
-            "m_owner": "e417c2a6-1faa-446a-ae59-4a51502e7a63"
-        },
-        {
             "id": "f7ab048f-2e49-42cd-af5b-310ca165f976",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -30,6 +20,16 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "293fed85-9530-4aeb-8295-8da7bd3a33ae",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "e417c2a6-1faa-446a-ae59-4a51502e7a63"
+        },
+        {
+            "id": "946702a1-65c4-4ae1-9982-c16ed508db76",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "56097505-32b1-4442-9870-62d864f45ef8",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "e417c2a6-1faa-446a-ae59-4a51502e7a63"

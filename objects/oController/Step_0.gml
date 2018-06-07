@@ -21,7 +21,7 @@ if keyboard_check_released(vk_delete)
 }
 #endregion
 
-
+/*
 #region //Fullscreen
 if keyboard_check_pressed(ord("F"))
 {

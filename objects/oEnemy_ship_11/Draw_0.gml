@@ -10,6 +10,7 @@ if (flash > 0)
 	shader_reset();
 }
 
+/*
 if hp >= 0
 {
 	draw_text(x,y-50,hp)

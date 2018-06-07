@@ -17,6 +17,7 @@ switch (move_position)
 	
 	case 1:
 	{
+		//HEALTH
 		if global.playerpoints >= 5
 		{
 			global.player_health += 10
@@ -27,11 +28,13 @@ switch (move_position)
 	
 	case 2:
 	{
-		if global.playerpoints >= 2 && global.maxhspd <= 7
+		//SPEED
+		if global.playerpoints >= 15 && global.maxhspd < 6
 		{
-			global.maxhspd += 0.2
-			global.maxvspd += 0.2
-			global.playerpoints -= 2
+			global.maxhspd += 1
+			global.maxvspd += 1
+			global.engine_level += 1
+			global.playerpoints -= 15
 		}
 		break;
 	}
