@@ -54,7 +54,7 @@ switch (move_position)
 				global.catapult_ammo = oProjectile_Boulder
 			}
 			global.Weapon_Catapult = true;
-			global.playerpoints -= 30
+			global.playerpoints -= 50
 			audio_play_sound(sfx_coin_pickup_2,100,false)
 		}
 			break;

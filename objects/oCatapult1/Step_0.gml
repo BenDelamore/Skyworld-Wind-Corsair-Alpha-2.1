@@ -11,8 +11,8 @@ else
 	image_flipped = 0;
 }
 
-x = oPlayer.x + lengthdir_x(80, image_flipped); 
-y = (oPlayer.y + lengthdir_y(80, image_flipped))+90;
+x = oPlayer.x + lengthdir_x(-120, image_flipped); 
+y = (oPlayer.y + lengthdir_y(-120, image_flipped))-30;
 
 //image_angle = clamp(point_direction(x,y,mouse_x,mouse_y),0,360); 
 
