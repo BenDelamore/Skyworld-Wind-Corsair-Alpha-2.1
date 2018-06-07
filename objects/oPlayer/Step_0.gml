@@ -217,6 +217,7 @@ if (inst != noone && keyboard_check_released(vk_enter))
 			global.room_number = inst.next_level
 			global.spawnX = inst.spawnX
 			global.spawnY = inst.spawnY
+			global.level_unlocked = inst.level_complete
 			//spawnX = inst.spawnX
 			//spawnY = inst.spawnY
 			do_transition = true

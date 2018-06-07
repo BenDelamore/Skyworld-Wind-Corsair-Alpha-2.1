@@ -6,11 +6,11 @@ global.hp=oPlayer.hp;
 hsv_effect=1;
 
 //minimum hsv and max hsv, max 255
-hsv_min=20; //red
-hsv_max=120; //green
+hsv_min=0; //red = 20
+hsv_max=120; //green = 120
 
 hsv=hsv_min; 
-hsv_inc=0.2; //incremental hsv
+hsv_inc=0.4; //incremental hsv
 
 
 saturation=200;

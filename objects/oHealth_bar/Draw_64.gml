@@ -1,8 +1,8 @@
 /// @description 
 
 //Health bar position
-posx = oController.guiWidth/13
-posy = oController.guiHeight - oController.guiHeight/9
+posx = 200//oController.guiWidth - 150
+posy = 70//oController.guiHeight - 100//oController.guiHeight
 
 //max hp bug
 if oPlayer.hp > global.max_hp {oPlayer.hp = global.max_hp}

@@ -3,11 +3,6 @@
 
 image_speed = 0;
 
-if button_pressed = true
-{
-	image_index = 2
-}
-
 if hover = true
 {
 	image_index = 1
@@ -15,6 +10,11 @@ if hover = true
 else
 {
 	image_index = 0
+}
+
+if button_pressed = true
+{
+	image_index = 2
 }
 
 draw_self()

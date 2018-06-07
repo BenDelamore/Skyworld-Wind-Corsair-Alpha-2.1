@@ -51,15 +51,20 @@ switch (move_position)
 	}
 	case 3:
 	{
-		//room_goto(room_testing)
-		with (oController)
-			{
-				if (!do_transition)
+		if global.level_unlocked = room_level2
+		{
+			global.room_number = room_Boss_level
+			global.spawnY = 1000
+			//room_goto(room_testing)
+			with (oController)
 				{
-					spawn_room = room_Boss_level
-					do_transition = true
+					if (!do_transition)
+					{
+						spawn_room = room_Boss_level
+						do_transition = true
 				}
 			}
+		}
 		break;
 	}
 	case 4:

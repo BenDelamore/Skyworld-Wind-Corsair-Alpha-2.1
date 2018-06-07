@@ -10,4 +10,4 @@ for (m = 0; m < array_length_1d(menu); m += 1)
 	draw_text(x + space, y + (m*space), string(menu[m]))
 }
 
-draw_sprite(sprite_index, 0, x + 16, y + move_position * space)
+draw_sprite_ext(sprite_index, 0, x + 16, y + move_position * space,2,2,0,c_white,1)

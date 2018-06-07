@@ -12,8 +12,8 @@ global.coins_collected = 0;
 global.maxhspd = 4.5;
 global.maxvspd = 4.5;
 
-global.spawnX = 300
-global.spawnY = room_height/2
+global.spawnX = 0
+global.spawnY = 1300
 
 //Weapons 1
 global.Weapon_Ballistae = true;
@@ -29,8 +29,12 @@ global.catapult_ammo = false
 //Current level
 global.room_number = room_level0;
 
+global.level_unlocked = room_level0
+
 //Room edge
 global.edge = 400;
 
 //Pause
 global.pause = false;
+
+window_set_fullscreen(true);

@@ -1,8 +1,29 @@
 
 player_health = (global.player_health)
 player_speed = (global.maxhspd)	
-player_catapult = (global.Weapon_Catapult)	
-player_ballistae = (global.Weapon_Ballistae2)
+if global.Weapon_Catapult = true
+{
+	if global.catapult_ammo = oProjectile_Boulder
+	{
+		player_catapult = "Ammo = Boulder"
+	}
+	else if global.catapult_ammo = oProjectile_explosive
+	{
+		player_catapult = "Ammo = Explosive"
+	}
+}
+else
+{
+	player_catapult = "Locked"
+}
+if global.Weapon_Ballistae = true
+{
+	player_ballistae = "Level 1"
+}
+else
+{
+	player_ballistae = "Level 2"
+}
 
 menu [0] = " "	
 menu [1] = player_health		

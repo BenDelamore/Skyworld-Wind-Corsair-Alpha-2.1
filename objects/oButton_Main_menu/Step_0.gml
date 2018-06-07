@@ -3,9 +3,9 @@
 
 if position_meeting(mouse_x,mouse_y,id)//instance_position(mouse_x,mouse_y,oButton)
 {
-	if instance_exists(oMenu)
+	if instance_exists(oMenu_level_select)
 	{
-	oMenu.move_position = move_position
+	oMenu_level_select.move_position = move_position
 	}
 	hover = true
 }

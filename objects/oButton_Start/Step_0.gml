@@ -20,7 +20,7 @@ if position_meeting(mouse_x,mouse_y,self)
 	{
 		button_pressed = true
 		button_timer = 60
-		
+		/*
 		global.room_number = room_level0
 		global.spawnX = 300
 		global.spawnY = 1300
@@ -33,15 +33,15 @@ if position_meeting(mouse_x,mouse_y,self)
 					do_transition = true
 				}
 			}
-			
-			if instance_exists(oMenu)
+		*/
+		if instance_exists(oMenu)
+		{
+			with oMenu
 			{
-				with oMenu
-				{
-					move_position = 0
-					push = 1
-				}
+				move_position = 0
+				push = 1
 			}
+		}
 		//script_execute(button_array[button_action])
 	}
 }

@@ -38,7 +38,7 @@ switch (move_position)
 	
 	case 3:
 	{
-		if global.playerpoints >= 30 && global.catapult_ammo != oProjectile_explosive
+		if global.playerpoints >= 50 && global.catapult_ammo != oProjectile_explosive
 		{
 			if global.catapult_ammo = oProjectile_Boulder
 			{

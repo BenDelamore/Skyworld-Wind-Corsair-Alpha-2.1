@@ -16,7 +16,12 @@
         "3410d08b-d712-48e5-a4ce-5e34f5bc40b8",
         "a2ffec12-ccce-4dec-974c-7bda7bc992b5",
         "fd198222-6bf8-453e-a981-4e225ba97727",
-        "fc63fe85-16eb-46dc-bdbb-3ef9deeca663"
+        "fc63fe85-16eb-46dc-bdbb-3ef9deeca663",
+        "bc13e1b5-34ae-4f87-8d12-df56a686d14d",
+        "7b79d034-3344-4ea9-9220-c6a1f12792e3",
+        "7b1c45b0-2c73-45b9-92a4-d10b88df46e6",
+        "621667a3-f2bd-4f71-b8ca-c289cbec1366",
+        "8131d3f0-83ad-42fb-a850-1c40c5b94559"
     ],
     "filterType": "GMObject",
     "folderName": "Menu Stuff",

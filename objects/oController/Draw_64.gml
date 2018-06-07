@@ -118,14 +118,16 @@ draw_set_alpha(1)
 guiWidth = display_get_width()
 guiHeight = display_get_height()
 
-
-if window_get_fullscreen()
-   {
-   draw_text(32, 32, "Fullscreen is ON");
-   }
-else    {
-   draw_text(32, 32, "Fullscreen is OFF");
-   }
+draw_set_halign(fa_left)
+	if window_get_fullscreen()
+	{
+		draw_text(32, 16, "Fullscreen is ON");
+	}
+	else   
+	{
+		draw_text(32, 16, "Fullscreen is OFF");
+	}
+draw_set_halign(fa_center)
 
 #region//Pause Menu stuff
 if (global.pause)

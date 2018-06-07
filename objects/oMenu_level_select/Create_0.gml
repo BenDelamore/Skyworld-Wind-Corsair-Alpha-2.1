@@ -5,5 +5,5 @@ menu [2] = "LEVEL 3"
 menu [3] = "TEST LEVEL"
 menu [4] = "MAIN MENU"
 
-space = 64
+space = 128
 move_position = 0
