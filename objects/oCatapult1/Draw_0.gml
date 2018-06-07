@@ -15,12 +15,24 @@ if mouse_check_button(mb_right)
 
 if firing_delay >= 1
 {
-	image_index = 1
+	var rot = firing_delay
+	image_angle = initial_rotation - rot
 }
 else
 {
-	image_index = 0
+	image_angle = initial_rotation
 }
+
+if image_flipped = 0
+{
+	image_xscale = 1
+}
+else
+{
+	image_xscale = -1
+}
+
+draw_sprite(sWeapon_2_base,0,x,y)
 
 
 

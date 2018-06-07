@@ -13,8 +13,8 @@ with (other)
 
 oCameraTarget.shake = 1
 
-audio_play_sound(sfx_crash_1,80,false)
-audio_sound_gain(sfx_crash_1,0.5,0)
+audio_play_sound(sfx_weapon_impact,80,false)
+//audio_sound_gain(sfx_weapon_impact,1,0)
 
 
 instance_destroy();

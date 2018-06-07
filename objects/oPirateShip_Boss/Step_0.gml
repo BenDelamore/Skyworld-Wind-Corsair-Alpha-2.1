@@ -129,6 +129,10 @@ y = min(y, room_height-global.edge);
 #region //death
 if hp <= 0
 {
+	if !audio_is_playing(sfx_boss_explosion)
+	{
+		audio_play_sound(sfx_boss_explosion,200,false)
+	}
 	bullet_timer = -10000
 	bullet_timer_2 = -10000
 	flame_frame += 0.2

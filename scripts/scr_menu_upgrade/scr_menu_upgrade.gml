@@ -22,6 +22,7 @@ switch (move_position)
 		{
 			global.player_health += 10
 			global.playerpoints -= 5
+			audio_play_sound(sfx_coin_pickup_2,100,false)
 		}
 		break;
 	}
@@ -35,6 +36,7 @@ switch (move_position)
 			global.maxvspd += 1
 			global.engine_level += 1
 			global.playerpoints -= 15
+			audio_play_sound(sfx_coin_pickup_2,100,false)
 		}
 		break;
 	}
@@ -53,6 +55,7 @@ switch (move_position)
 			}
 			global.Weapon_Catapult = true;
 			global.playerpoints -= 30
+			audio_play_sound(sfx_coin_pickup_2,100,false)
 		}
 			break;
 	}
@@ -64,6 +67,7 @@ switch (move_position)
 			global.Weapon_Ballistae2 = true
 			global.Weapon_Ballistae = false
 			global.playerpoints -= 30
+			audio_play_sound(sfx_coin_pickup_2,100,false)
 		}
 			break;
 

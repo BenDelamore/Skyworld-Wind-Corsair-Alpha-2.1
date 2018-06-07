@@ -2,17 +2,17 @@
 //if global.Weapon_Catapult = true
 //{
 #region //Weapon-Catapult Code
-
-if oPlayer.hspd <= -0.1
+if oPlayer.image_xscale < 0
 {
-	x = oPlayer.x+48
-	y = oPlayer.y
+image_flipped = 180;
 }
 else
 {
-	x = oPlayer.x-48
-	y = oPlayer.y
+	image_flipped = 0;
 }
+
+x = oPlayer.x + lengthdir_x(80, image_flipped); 
+y = (oPlayer.y + lengthdir_y(80, image_flipped))+90;
 
 //image_angle = clamp(point_direction(x,y,mouse_x,mouse_y),0,360); 
 
@@ -28,7 +28,6 @@ if boulderspeed >= max_boulderspeed {boulderspeed = max_boulderspeed}
 
 if mouse_check_button_released(mb_right) && (firing_delay < 0)
 {
-	image_index = 1
 	recoil = 59;
 	firing_delay = 60;
 	with (instance_create_layer(x,y,"projectiles_layer",ammo))
@@ -42,10 +41,6 @@ if mouse_check_button_released(mb_right) && (firing_delay < 0)
 	}
 }
 
-else
-{
-	image_index = 0
-}
 #endregion
 
 if oPlayer.hp <= 0

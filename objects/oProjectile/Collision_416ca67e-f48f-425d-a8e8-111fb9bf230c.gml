@@ -11,4 +11,6 @@ with (other)
 	y += lengthdir_y(1,other.direction)
 }
 
+audio_play_sound(sfx_weapon_impact,70,false)
+
 instance_destroy();

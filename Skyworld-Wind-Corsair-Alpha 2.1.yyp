@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "2ed8746a-c151-4a37-be03-3ced867a94f6",
+            "Value": {
+                "id": "439ae6db-474a-4284-b96b-ea9a4ee45fe3",
+                "resourcePath": "sprites\\sWeapon_2_base\\sWeapon_2_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f67910b-bde6-40ea-8e48-559d9253e601",
             "Value": {
                 "id": "a2e30569-dc48-4459-a8fb-60833f389105",
@@ -1103,6 +1111,14 @@
             }
         },
         {
+            "Key": "7f0bda66-665c-448f-adb0-97944c1e9556",
+            "Value": {
+                "id": "85ae951b-eb7d-407c-94b9-9179696d43c9",
+                "resourcePath": "sounds\\sfx_boss_explosion\\sfx_boss_explosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7f8ef80e-b832-47c9-ae95-04870edf4ede",
             "Value": {
                 "id": "01fd0b9c-cb85-4ee6-9e63-8723288041c3",
@@ -1172,6 +1188,14 @@
                 "id": "b1969cdc-487b-4a6f-8b6f-f7fc9ef8b551",
                 "resourcePath": "sprites\\sBackgroundSky\\sBackgroundSky.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8643e85d-d60e-4fee-83e5-814e79c026fe",
+            "Value": {
+                "id": "532e25fe-cf5e-46fd-b669-06666eb8d325",
+                "resourcePath": "sounds\\sfc_explosion_2\\sfc_explosion_2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1407,6 +1431,14 @@
             }
         },
         {
+            "Key": "a6b9339a-765e-4305-b6b9-d5f2acbfb525",
+            "Value": {
+                "id": "4c1edf62-941d-47c2-94b7-83975c61ff47",
+                "resourcePath": "sounds\\sfx_health_pickup\\sfx_health_pickup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a6f369b0-1631-4e5e-8e4c-89c185fbf04b",
             "Value": {
                 "id": "f6401d4c-cc99-4bfd-90b8-a91376faf828",
@@ -1635,6 +1667,14 @@
             "Value": {
                 "id": "048ee97f-3875-471f-994a-ff50dbfafff6",
                 "resourcePath": "sounds\\sfx_coin_pickup\\sfx_coin_pickup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c32dd3ac-2bb5-4355-81da-99358cdf2307",
+            "Value": {
+                "id": "00b638a9-2528-470d-8077-a170c553b310",
+                "resourcePath": "sounds\\sfx_weapon_impact\\sfx_weapon_impact.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2015,14 +2055,6 @@
             }
         },
         {
-            "Key": "ec16e465-6741-4cbe-8333-2ec2d68fe502",
-            "Value": {
-                "id": "03f810ca-74a5-4ac4-9108-4fea09bd5f7e",
-                "resourcePath": "sounds\\sfx_engine\\sfx_engine.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "ed046d2b-960b-45fc-aebc-468327439bdf",
             "Value": {
                 "id": "14d35103-6f58-44a5-a2da-2babdd0f9f9a",
@@ -2196,6 +2228,14 @@
                 "id": "555ab9bf-a5d7-449e-9b5f-da00ccff3c6f",
                 "resourcePath": "sprites\\sSmall_island_1\\sSmall_island_1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ff186daf-4a56-4056-8e1b-5bb5bf3923ea",
+            "Value": {
+                "id": "a6f4eb30-d4fa-48a9-a325-f60c29a380be",
+                "resourcePath": "sounds\\sfx_weapon_fire\\sfx_weapon_fire.yy",
+                "resourceType": "GMSound"
             }
         }
     ],

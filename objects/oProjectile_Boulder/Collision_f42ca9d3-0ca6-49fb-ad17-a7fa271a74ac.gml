@@ -12,4 +12,6 @@ with (other)
 	y += lengthdir_y(6,other.direction)
 }
 
+audio_play_sound(sfx_crash_1,80,false)
+
 instance_destroy();
