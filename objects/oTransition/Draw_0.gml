@@ -1,5 +1,5 @@
 /// @description Insert description here
-
+/*
 if place_meeting(x,y,oPlayer)
 {
 	if alpha < 1 
@@ -16,6 +16,6 @@ else
 }
 
 draw_set_alpha(alpha)
-draw_text(oPlayer.x,oPlayer.y-100,text)
+draw_text(oPlayer.x,oPlayer.y-200,text)
 
 draw_set_alpha(1)

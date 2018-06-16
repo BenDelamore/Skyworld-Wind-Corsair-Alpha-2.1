@@ -27,10 +27,12 @@ timer = 4
 
 //other enemy AI code
 
+scr_BasicCollision_init(1);
+
 hp = 5000
 
 dir = 0
-spd = 2 + random(2)
+spd = 3 + irandom(2)
 
 mode = "wander"
 

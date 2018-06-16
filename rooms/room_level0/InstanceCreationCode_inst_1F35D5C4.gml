@@ -1,1 +1,0 @@
-set_path = enemy_path_idle

@@ -5,9 +5,41 @@ switch (move_position)
 	{
 		//room_goto_next()
 		//ADD SAVE GAME OVERWRITE HERE
-		global.room_number = room_level0
-		global.spawnX = 300
+		#region //Reset Game
+		//Player variables
+		global.max_hp = 100;
+		global.hp = 100;
+		global.player_health = 200;
+
+		global.playerpoints = 50;
+		global.coins_collected = 0;
+
+		global.engine_level = 1;
+		global.maxhspd = 4;
+		global.maxvspd = 4;
+
+		global.spawnX = 0
 		global.spawnY = 1300
+
+		//Weapons 1
+		global.Weapon_Ballistae = true;
+		global.Weapon_Catapult = false;
+		global.Weapon_Ballistae2 = false;
+
+		//Weapons 2 for upgrade system
+		global.weapon_1 = global.Weapon_Ballistae;
+		global.weapon_2 = false;
+
+		global.catapult_ammo = false
+
+		//Current level
+		global.room_number = room_level0;
+
+		global.level_unlocked = room_level0
+		#endregion
+		
+		global.spawnX = 960
+		global.spawnY = 540
 #region All other code attempts
 		#region First attempt ----- USING THIS ONE CURRENTLY
 		//Add Save game OVERWRITE code

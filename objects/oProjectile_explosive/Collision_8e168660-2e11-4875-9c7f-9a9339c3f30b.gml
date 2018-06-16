@@ -3,7 +3,7 @@
 
 with (other)
 {
-	hp -= (15 + oProjectile_explosive.speed*10)
+	hp -= (15 + oProjectile_explosive.speed*4)
 	flash = 3
 	
 	mode = "knockback"

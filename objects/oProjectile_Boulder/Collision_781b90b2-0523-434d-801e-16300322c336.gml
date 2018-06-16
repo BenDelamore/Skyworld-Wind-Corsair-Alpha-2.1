@@ -3,7 +3,7 @@
 
 with (other)
 {
-	hp -= (15 + oProjectile_Boulder.speed*10)
+	hp -= (15 + oProjectile_Boulder.speed*3)
 	flash = 3
 	
 	mode = "knockback"
@@ -11,5 +11,7 @@ with (other)
 	x += lengthdir_x(2,other.direction)
 	y += lengthdir_y(2,other.direction)
 }
+
+oCameraTarget.shake = 2
 
 instance_destroy();

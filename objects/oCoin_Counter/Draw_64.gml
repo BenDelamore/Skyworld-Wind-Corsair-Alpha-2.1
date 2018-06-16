@@ -15,5 +15,5 @@ draw_set_font(fnt_Unzialish)
 //}
 //else
 //{
-	draw_text(_x,_y,global.playerpoints+global.coins_collected)
+	draw_text(x,y,global.playerpoints+global.coins_collected)
 //}

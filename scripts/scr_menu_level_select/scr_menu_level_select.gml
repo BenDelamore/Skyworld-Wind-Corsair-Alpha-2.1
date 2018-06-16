@@ -51,7 +51,7 @@ switch (move_position)
 	}
 	case 3:
 	{
-		if global.level_unlocked = room_level2
+		if global.level_unlocked = room_level0
 		{
 			global.room_number = room_Boss_level
 			global.spawnY = 1000

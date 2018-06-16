@@ -118,6 +118,7 @@ draw_set_alpha(1)
 guiWidth = display_get_width()
 guiHeight = display_get_height()
 
+/*
 draw_set_halign(fa_left)
 	if window_get_fullscreen()
 	{
@@ -128,7 +129,7 @@ draw_set_halign(fa_left)
 		draw_text(32, 16, "Fullscreen is OFF");
 	}
 draw_set_halign(fa_center)
-
+*/
 #region//Pause Menu stuff
 if (global.pause)
 {
@@ -143,5 +144,17 @@ if (global.pause)
 	draw_set_color(c_black)
 }
 #endregion
+/*
+if room = room_controls
+{
+	draw_sprite(sControls_1,0,384,540)
+	draw_sprite(sControls_2,0,1600,352)
+}
 
 //draw_sprite_ext(sTarget_image,0,mouse_x,mouse_y,2,2,45,c_red,1);
+*/
+/*
+if room = room_levelFinish
+{
+	scr_finish
+}

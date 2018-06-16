@@ -10,6 +10,8 @@ maxvspd = global.maxvspd;
 
 spd = sqrt(hspd*hspd + vspd*vspd)
 
+dir = 0;
+
 //For engine sound...
 gear = 0
 
@@ -45,6 +47,8 @@ if global.Weapon_Catapult = true {instance_create_layer(x,y+2,"player_layer",oCa
 
 //Weapon Spot creation
 //weapon_spot_1 = instance_create_layer(x+64,y-2,"weapon_layer",global.weapon_1)
+
+scr_BasicCollision_init(1);
 
 //Create Camera
 instance_create_layer(x,y,"player_layer",oCameraTarget)

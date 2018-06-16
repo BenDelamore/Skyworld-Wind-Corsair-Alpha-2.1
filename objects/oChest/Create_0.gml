@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 hp = 1
-timer = 1
+timer = 2

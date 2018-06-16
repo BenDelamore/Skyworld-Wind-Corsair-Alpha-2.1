@@ -5,7 +5,7 @@ if (global.pause) {exit;}
 #region //Wander
 if mode = "wander"
 {
-	speed = 1
+	speed = 2
 
 	if ceil(random(100)) = true
 	{
@@ -176,6 +176,8 @@ if hp <= 0
 		instance_destroy()
 		with (oController)
 		{
+			global.spawnX = 0
+			global.spawnY = 540
 			if (!do_transition)
 			{
 				spawn_room = room_levelFinish

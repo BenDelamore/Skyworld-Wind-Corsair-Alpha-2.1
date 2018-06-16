@@ -9,7 +9,7 @@ global.player_health = 200;
 global.playerpoints = 50;
 global.coins_collected = 0;
 
-global.engine_level = 1;
+global.engine_level = 3;
 global.maxhspd = 4;
 global.maxvspd = 4;
 
