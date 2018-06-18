@@ -1,4 +1,4 @@
-/// @description 
+ /// @description 
 
 //Health bar position
 posx = 200//oController.guiWidth - 150
@@ -7,13 +7,15 @@ posy = 70//oController.guiHeight - 100//oController.guiHeight
 //max hp bug
 if oPlayer.hp > global.max_hp {oPlayer.hp = global.max_hp}
 
-hsv = hsv_min
+hsv = oPlayer.hp/2
+
 for (i= 0;i<oPlayer.hp;i++){
+	/*
     //draw the color effect
     if hsv < hsv_max and hsv_effect { 
         hsv+=hsv_inc;
     }
-       
+	*/       
     //create the color
     col=make_colour_hsv(hsv,saturation,200)
     
